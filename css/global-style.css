@@ -1,0 +1,54 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	font-family: 'font', sans-serif;
+}
+
+@font-face {
+	font-family: 'MullerBold';
+	src: local('MullerBold'), local('MullerBold'),
+		url('/assets/fonts/MullerBold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MullerLight';
+	src: local('MullerLight'), local('MullerLight'),
+		url('/assets/fonts/MullerLight.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MullerMedium';
+	src: local('MullerMedium'), local('MullerMedium'),
+		url('/assets/fonts/MullerMedium.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MullerRegular';
+	src: local('MullerRegular'), local('MullerRegular'),
+		url('/assets/fonts/MullerRegular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
