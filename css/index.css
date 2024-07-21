@@ -2,12 +2,23 @@
     max-width: 1170px;
     margin: 0 auto;
     font-family: 'MullerRegular', sans-serif;
-    margin-top: 30px;
+    padding-top: 30px;
 }
 
-.header-row {
+
+
+/* Семантический тег <header> / Шапка сайта */
+.header-top {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
     
+}
+
+.logo-phone-box {
+    align-items: center;
+    gap: 40px;
 }
 
 .header-logo {
@@ -16,9 +27,6 @@
 }
 
 .header-contact-number {
-    margin-right: auto;
-    margin: 17px 40px;
-    margin-right: auto;
     font-weight: 500;
     font-size: 20px;
     color: #666;
@@ -29,6 +37,53 @@
     font-weight: 400;
     font-size: 16px;
     color: #c93;
-    margin-top: 20px;
-    margin-bottom: 18px;
+}
+
+.back-to-personal-account-link {
+    display: flex;
+    gap: 20px;
+}
+
+
+
+/* NAV / НАВИГАЦИЯ */
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 45px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    gap: 45px;
+}
+
+.nav-item {
+    font-weight: 400;
+    font-size: 16px;
+    color: #666;
+}
+
+.button-vrap {
+    display: flex;
+    gap: 40px;
+}
+
+.header-btn {
+    border: 1px solid #c93;
+    border-radius: 10px;
+    padding: 13px 20px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #c93;
 }
