@@ -8,6 +8,10 @@
 
 
 /* Семантический тег <header> / Шапка сайта */
+.header {
+    margin-bottom: 70px;
+}
+
 .header-top {
     display: flex;
     align-items: center;
@@ -86,4 +90,104 @@
     font-weight: 400;
     font-size: 16px;
     color: #c93;
+}
+
+
+
+/* Секция СПЕЦПРЕДЛОЖЕНИЯ */
+.special-offers-section {
+    margin-bottom: 70px;
+}
+
+.special-offers-title {
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 40px;
+    color: #333;
+    height: 40px;
+    width: 357px;
+}
+
+.special-offers-wrap{
+    display: flex;
+    gap: 24px;
+
+}
+
+.left-block {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.left-block-item {
+    width: 573px;
+    height: 258px;
+    border-radius: 15px;
+}
+
+.first-card {
+    background:linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(/assets/img/maldives-background.svg);
+}
+
+.special-offers {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 108px 40px 45px;
+}
+
+.special-item-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 15px;
+    font-family: 'MullerBold', sans-serif;
+}
+
+.special-item-price {
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    opacity: 0.8;
+    margin-bottom: 47px;
+}
+
+.more-about-this-link {
+    font-weight: 400;
+    font-size: 16px;
+    color: #f0bf5f;
+}
+
+.second-card {
+    background:linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(/assets/img/background-island-crete.svg);
+}
+
+.right-block-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 573px;
+    height: 540px;
+    background-image: url(/assets/img/luxury-room-background.svg);
+}
+
+.right-special-offers {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 45px;
+    margin-bottom: 40px;
+}
+
+/* special-item-title 3 */
+.sit3 {
+    font-size: 60px;
+    margin-right: 229px;
+}
+
+/* special-item-price 3 */
+.sip3 {
+    font-size: 30px;
 }
