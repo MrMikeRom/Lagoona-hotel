@@ -191,3 +191,28 @@
 .sip3 {
     font-size: 30px;
 }
+
+
+
+/* Секция О НАС */
+.about-us-title {
+    font-weight: 400;
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.about-us-message {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #000;
+    height: 192px;
+    width: 888px;
+    margin-bottom: 70px;
+}
+
+
+
+/* Секция УСЛУГИ */
