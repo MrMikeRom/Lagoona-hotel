@@ -275,3 +275,89 @@
 .four-prew {
     background-image: url(/assets/img/guarded-car-parks.svg);
 }
+
+
+
+/* Секция ПРЕИМУЩЕСТВА */
+.advantages {
+    margin-bottom: 70px;
+}
+
+.advantages-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 22px;
+    flex-wrap: wrap;
+}
+
+.advantages-item {
+    border-radius: 15px;
+    width: 276px;
+    height: 276px;
+}
+
+.advantages-background {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 45px;
+}
+
+.advantages-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #000;
+    width: 189px;
+    height: 128px;
+    margin-left: 45px;
+}
+
+.bathtub-icon {
+    background-image: url(/assets/img/bathtub-icon.svg);
+    width: 64px;
+    height: 66px;
+}
+
+.hanger-icon {
+    background-image: url(/assets/img/hanger-icon.svg);
+    width: 67px;
+    height: 66px;
+}
+
+.heating-icon {
+    background-image: url(/assets/img/heating-icon.svg);
+    width: 64px;
+    height: 66px;
+}
+
+.key-icon {
+    background-image: url(/assets/img/key-icon.svg);
+    width: 66px;
+    height: 66px;
+}
+
+.parking-icon {
+    background-image: url(/assets/img/parking-icon.svg);
+    width: 66px;
+    height: 66px;
+}
+
+.reception-icon {
+    background-image: url(/assets/img/reception-icon.svg);
+    width: 64px;
+    height: 66px;
+}
+
+.security-box {
+    background-image: url(/assets/img/security-box.svg);
+    width: 67px;
+    height: 66px;
+}
+
+.swimming-pool-icon {
+    background-image: url(/assets/img/swimming-pool-icon.svg);
+    width: 64px;
+    height: 66px;
+}
