@@ -99,6 +99,7 @@
     margin-bottom: 70px;
 }
 
+/* h1 */
 .special-offers-title {
     margin-bottom: 20px;
     margin-left: 40px;
@@ -155,13 +156,16 @@
 }
 
 .more-about-this-link {
+    display: flex;
     font-weight: 400;
     font-size: 16px;
     color: #f0bf5f;
+    align-items: center;
+    gap: 5px;
 }
 
 .second-card {
-    background:linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(/assets/img/background-island-crete.svg);
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(/assets/img/background-island-crete.svg);
 }
 
 .right-block-item {
@@ -195,14 +199,6 @@
 
 
 /* Секция О НАС */
-.about-us-title {
-    font-weight: 400;
-    font-size: 40px;
-    color: #333;
-    margin-bottom: 20px;
-    margin-left: 40px;
-}
-
 .about-us-message {
     font-weight: 400;
     font-size: 16px;
@@ -216,3 +212,66 @@
 
 
 /* Секция УСЛУГИ */
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 24px;
+    margin-bottom: 70px;
+}
+
+.services-card-prew {
+    border-radius: 15px 15px 0 0;
+    width: 573px;
+    height: 165px;
+}
+.services-card-body {
+    border-radius: 15px 15px 0 0;
+    width: 573px;
+    height: 165px;
+    padding-top: 26px;
+    padding-right: 26px;
+    padding-bottom: 45px;
+    padding-left: 45px;
+}
+
+.service-link {
+    display: flex;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 200%;
+    color: #c93;
+    font-family: 'MullerMedium', sans-serif;
+    align-items: center;
+    gap: 5px;
+}
+
+.card-body-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #000;
+}
+
+
+/* 1 карточка */
+.one-prew {
+    background-image: url(/assets/img/exclusive-service.svg);
+}
+
+/* 2 карточка */
+.two-prew {
+    background-image: url(/assets/img/rent-of-banquet-halls.svg);
+}
+
+/* 3 карточка */
+.three-prew {
+    background-image: url(/assets/img/saunas-baths-fitness.svg);
+}
+
+/* 4 карточка */
+.four-prew {
+    background-image: url(/assets/img/guarded-car-parks.svg);
+}
