@@ -82,7 +82,7 @@
     gap: 40px;
 }
 
-.header-btn {
+.btn {
     border: 1px solid #c93;
     border-radius: 10px;
     padding: 13px 20px;
@@ -360,4 +360,94 @@
     background-image: url(/assets/img/swimming-pool-icon.svg);
     width: 64px;
     height: 66px;
+}
+
+
+
+/* Секция РАЗМЕЩЕНИЕ */
+.placement-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 70px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.placement-item {
+    border-radius: 15px;
+    width: 374px;
+    height: 440px;
+}
+
+.placement-card-body {
+    margin-top: 32px;
+    margin-left: 45px;
+}
+
+.placement-grey-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #999;
+}
+
+.placement-black-price {
+    font-family: 'MullerBold', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.placement-price-black {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+
+.placement-card-pr-ra {
+    display: flex;
+    flex-direction: row;
+    gap: 52px;
+    margin-bottom: 16px;
+}
+
+.placement-card-name {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 16px;
+}
+
+.placement-card-address {
+    margin-bottom: 20px;
+}
+
+/* ДЕВЯТАЯ "особая" карточка размещения */
+.placement-special-item {
+    border-radius: 15px;
+    width: 373px;
+    height: 440px;
+    background-image: url(/assets/img/placement-special-item-background.svg);
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.placement-special-item-container {
+    width: 265px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 200%;
+    color: #fff;
+    font-family: 'MullerMedium', sans-serif;
+}
+
+.placement-special-item-link {
+    display: flex;
+    gap: 5px;
 }
