@@ -86,7 +86,7 @@
     border: 1px solid #c93;
     border-radius: 10px;
     padding: 13px 20px;
-    height: 42px;
+    height: 100%;
     font-weight: 400;
     font-size: 16px;
     color: #c93;
@@ -107,8 +107,7 @@
     font-weight: 400;
     font-size: 40px;
     color: #333;
-    height: 40px;
-    width: 357px;
+    height: 100%;
 }
 
 .special-offers-wrap{
@@ -125,12 +124,15 @@
 
 .left-block-item {
     width: 573px;
-    height: 258px;
     border-radius: 15px;
 }
 
 .first-card {
     background:linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(/assets/img/maldives-background.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 .special-offers {
@@ -166,6 +168,10 @@
 
 .second-card {
     background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(/assets/img/background-island-crete.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 .right-block-item {
@@ -173,8 +179,13 @@
     flex-direction: column;
     justify-content: flex-end;
     width: 573px;
-    height: 540px;
+    height: 100%;
     background-image: url(/assets/img/luxury-room-background.svg);
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 .right-special-offers {
@@ -204,7 +215,7 @@
     font-size: 16px;
     line-height: 200%;
     color: #000;
-    height: 192px;
+    height: 100%;
     width: 888px;
     margin-bottom: 70px;
 }
@@ -230,7 +241,7 @@
 .services-card-body {
     border-radius: 15px 15px 0 0;
     width: 573px;
-    height: 165px;
+    height: 100%;
     padding-top: 26px;
     padding-right: 26px;
     padding-bottom: 45px;
@@ -295,7 +306,7 @@
 .advantages-item {
     border-radius: 15px;
     width: 276px;
-    height: 276px;
+    height: 100%;
 }
 
 .advantages-background {
@@ -310,7 +321,7 @@
     line-height: 200%;
     color: #000;
     width: 189px;
-    height: 128px;
+    height: 100%;
     margin-left: 45px;
 }
 
@@ -379,7 +390,7 @@
 .placement-item {
     border-radius: 15px;
     width: 374px;
-    height: 440px;
+    height: 100%;
 }
 
 .placement-card-body {
@@ -426,6 +437,7 @@
     margin-bottom: 20px;
 }
 
+
 /* ДЕВЯТАЯ "особая" карточка размещения */
 .placement-special-item {
     border-radius: 15px;
@@ -439,7 +451,6 @@
 
 .placement-special-item-container {
     width: 265px;
-    height: 40px;
     font-weight: 500;
     font-size: 20px;
     line-height: 200%;
@@ -450,4 +461,6 @@
 .placement-special-item-link {
     display: flex;
     gap: 5px;
+    align-items: center;
+    margin-bottom: 27px;
 }
