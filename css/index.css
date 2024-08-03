@@ -1,11 +1,4 @@
-:root {
-	--yellow: #c93;
-    --pale-yellow: #f0bf5f;
-    --black: #000;
-    --white: #fff;
-    --grey: #666;
-    --pale-grey: #999;
-}
+
 
 /* Семантический тег <header> / Шапка сайта */
 .header {
