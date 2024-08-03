@@ -8,6 +8,13 @@ html {
 	box-sizing: inherit;
 }
 
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    font-family: 'MullerRegular', sans-serif;
+    padding-top: 30px;
+}
+
 h1 {
 	height: 100%;
 }
