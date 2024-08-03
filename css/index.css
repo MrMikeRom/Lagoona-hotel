@@ -1,5 +1,3 @@
-
-
 /* Семантический тег <header> / Шапка сайта */
 .header {
     margin-bottom: 70px;
@@ -121,7 +119,7 @@
 }
 
 .first-card {
-    background:linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(/assets/img/maldives-background.svg);
+    background:linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(/assets/img/maldives-background.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -160,7 +158,7 @@
 }
 
 .second-card {
-    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(/assets/img/background-island-crete.svg);
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(/assets/img/background-island-crete.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -173,7 +171,7 @@
     justify-content: flex-end;
     width: 573px;
     height: 100%;
-    background-image: url(/assets/img/luxury-room-background.svg);
+    background-image: url(/assets/img/luxury-room-background.png);
     border-radius: 15px;
     background-size: cover;
     background-position: center center;
