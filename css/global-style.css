@@ -45,7 +45,7 @@ body {
 @font-face {
 	font-family: 'MullerBold';
 	src: local('MullerBold'), local('MullerBold'),
-		url('/assets/fonts/MullerBold.woff') format('woff');
+		url('/assets/fonts/MullerBold.woff2') format('woff2');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -53,7 +53,7 @@ body {
 @font-face {
 	font-family: 'MullerLight';
 	src: local('MullerLight'), local('MullerLight'),
-		url('/assets/fonts/MullerLight.woff') format('woff');
+		url('/assets/fonts/MullerLight.woff2') format('woff2');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -61,7 +61,7 @@ body {
 @font-face {
 	font-family: 'MullerMedium';
 	src: local('MullerMedium'), local('MullerMedium'),
-		url('/assets/fonts/MullerMedium.woff') format('woff');
+		url('/assets/fonts/MullerMedium.woff2') format('woff2');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -69,7 +69,7 @@ body {
 @font-face {
 	font-family: 'MullerRegular';
 	src: local('MullerRegular'), local('MullerRegular'),
-		url('/assets/fonts/MullerRegular.woff') format('woff');
+		url('/assets/fonts/MullerRegular.woff2') format('woff2');
 	font-weight: normal;
 	font-style: normal;
 }
