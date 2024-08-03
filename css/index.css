@@ -433,7 +433,7 @@
 .placement-special-item {
     border-radius: 15px;
     width: 373px;
-    height: 440px;
+    min-height: 440px;
     background-image: url(/assets/img/placement-special-item-background.svg);
     display: flex;
     flex-direction: column-reverse;
