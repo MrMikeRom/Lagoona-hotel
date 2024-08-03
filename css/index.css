@@ -68,7 +68,7 @@
     color: var(--grey);
 }
 
-.button-vrap {
+.button-wrap {
     display: flex;
     gap: 40px;
 }
