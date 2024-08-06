@@ -2,10 +2,51 @@ html {
 	box-sizing: border-box;
 }
 
+body {
+	background-color: #f1f1f1;
+}
+
 *,
 *::before,
 *::after {
 	box-sizing: inherit;
+}
+
+:root {
+	--yellow: #c93;
+    --pale-yellow: #f0bf5f;
+    --black: #000;
+    --white: #fff;
+    --grey: #666;
+    --pale-grey: #999;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    font-family: 'MullerRegular', sans-serif;
+    padding-top: 30px;
+}
+
+h1 {
+	height: 100%;
+}
+
+h2 {
+	margin: 0;
+	font-weight: 400;
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+h3 {
+	margin: 0;
+}
+
+p {
+	margin: 0;
 }
 
 a {
@@ -19,4 +60,46 @@ img {
 
 body {
 	font-family: 'font', sans-serif;
+}
+
+@font-face {
+	font-family: 'MullerBold';
+	src: local('MullerBold'), local('MullerBold'),
+		url('/assets/fonts/MullerBold.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MullerLight';
+	src: local('MullerLight'), local('MullerLight'),
+		url('/assets/fonts/MullerLight.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MullerMedium';
+	src: local('MullerMedium'), local('MullerMedium'),
+		url('/assets/fonts/MullerMedium.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MullerRegular';
+	src: local('MullerRegular'), local('MullerRegular'),
+		url('/assets/fonts/MullerRegular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.btn-reset {
+	padding: 0;
+	border: none;
+	background: none;
+}
+
+.flex {
+	display: flex;
 }

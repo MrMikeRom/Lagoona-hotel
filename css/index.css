@@ -1,0 +1,450 @@
+/* Семантический тег <header> / Шапка сайта */
+.header {
+    margin-bottom: 70px;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    
+}
+
+.logo-phone-box {
+    align-items: center;
+    gap: 40px;
+}
+
+.header-logo {
+    width: 261px;
+    height: 54px;
+}
+
+.header-contact-number {
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--grey);
+    font-family: 'MullerMedium', sans-serif;
+}
+
+.header-back-to-personal-account {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--yellow);
+}
+
+
+
+/* NAV / НАВИГАЦИЯ */
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 45px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    gap: 45px;
+}
+
+.nav-item {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--grey);
+}
+
+.button-wrap {
+    display: flex;
+    gap: 40px;
+}
+
+.btn {
+    border: 1px solid var(--yellow);
+    border-radius: 10px;
+    padding: 13px 20px;
+    height: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--yellow);
+}
+
+
+
+/* Секция СПЕЦПРЕДЛОЖЕНИЯ */
+.special-offers-section {
+    margin-bottom: 70px;
+}
+
+/* h1 */
+.special-offers-title {
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 40px;
+    color: var(--grey);
+    height: 100%;
+}
+
+.special-offers-wrap{
+    display: flex;
+    gap: 24px;
+
+}
+
+.left-block {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.left-block-item {
+    width: 573px;
+    border-radius: 15px;
+}
+
+.first-card {
+    background:linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(/assets/img/maldives-background.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.special-offers {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 108px 40px 45px;
+}
+
+.special-item-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--white);
+    margin-bottom: 15px;
+    font-family: 'MullerBold', sans-serif;
+}
+
+.special-item-price {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--white);
+    opacity: 0.8;
+    margin-bottom: 47px;
+}
+
+.more-about-this-link {
+    display: flex;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--pale-yellow);
+    align-items: center;
+    gap: 5px;
+}
+
+.second-card {
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(/assets/img/background-island-crete.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.right-block-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 573px;
+    height: 100%;
+    background-image: url(/assets/img/luxury-room-background.png);
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.right-special-offers {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 45px;
+    margin-bottom: 40px;
+}
+
+.right-special-item-title {
+    font-size: 60px;
+    margin-right: 229px;
+}
+
+
+
+/* Секция О НАС */
+.about-us-message {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: var(--black);
+    height: 100%;
+    width: 888px;
+    margin-bottom: 70px;
+}
+
+
+
+/* Секция УСЛУГИ */
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 24px;
+    margin-bottom: 70px;
+}
+
+.services-card-prew {
+    border-radius: 15px 15px 0 0;
+    width: 573px;
+    height: 165px;
+}
+.services-card-body {
+    border-radius: 15px 15px 0 0;
+    width: 573px;
+    height: 100%;
+    padding-top: 26px;
+    padding-right: 26px;
+    padding-bottom: 45px;
+    padding-left: 45px;
+    background-color: var(--white);
+}
+
+.service-link {
+    display: flex;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 200%;
+    color: var(--yellow);
+    font-family: 'MullerMedium', sans-serif;
+    align-items: center;
+    gap: 5px;
+}
+
+.card-body-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: var(--black);
+}
+
+
+/* 1 карточка */
+.one-prew {
+    background-image: url(/assets/img/exclusive-service.svg);
+}
+
+/* 2 карточка */
+.two-prew {
+    background-image: url(/assets/img/rent-of-banquet-halls.svg);
+}
+
+/* 3 карточка */
+.three-prew {
+    background-image: url(/assets/img/saunas-baths-fitness.svg);
+}
+
+/* 4 карточка */
+.four-prew {
+    background-image: url(/assets/img/guarded-car-parks.svg);
+}
+
+
+
+/* Секция ПРЕИМУЩЕСТВА */
+.advantages {
+    margin-bottom: 70px;
+}
+
+.advantages-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 22px;
+    flex-wrap: wrap;
+}
+
+.advantages-item {
+    border-radius: 15px;
+    width: 276px;
+    height: 100%;
+}
+
+.advantages-background {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 45px;
+}
+
+.advantages-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: var(--black);
+    width: 189px;
+    height: 100%;
+    margin-left: 45px;
+}
+
+.bathtub-icon {
+    background-image: url(/assets/img/bathtub-icon.svg);
+    width: 64px;
+    height: 66px;
+}
+
+.hanger-icon {
+    background-image: url(/assets/img/hanger-icon.svg);
+    width: 67px;
+    height: 66px;
+}
+
+.heating-icon {
+    background-image: url(/assets/img/heating-icon.svg);
+    width: 64px;
+    height: 66px;
+}
+
+.key-icon {
+    background-image: url(/assets/img/key-icon.svg);
+    width: 66px;
+    height: 66px;
+}
+
+.parking-icon {
+    background-image: url(/assets/img/parking-icon.svg);
+    width: 66px;
+    height: 66px;
+}
+
+.reception-icon {
+    background-image: url(/assets/img/reception-icon.svg);
+    width: 64px;
+    height: 66px;
+}
+
+.security-box {
+    background-image: url(/assets/img/security-box.svg);
+    width: 67px;
+    height: 66px;
+}
+
+.swimming-pool-icon {
+    background-image: url(/assets/img/swimming-pool-icon.svg);
+    width: 64px;
+    height: 66px;
+}
+
+
+
+/* Секция РАЗМЕЩЕНИЕ */
+.placement-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 70px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.placement-item {
+    border-radius: 15px;
+    width: 374px;
+    height: 100%;
+}
+
+.placement-card-body {
+    margin-top: 32px;
+    margin-left: 45px;
+}
+
+.placement-grey-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--pale-grey);
+}
+
+.placement-black-price {
+    font-family: 'MullerBold', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--black);
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.placement-price-black {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--black);
+}
+
+.placement-card-pr-ra {
+    display: flex;
+    flex-direction: row;
+    gap: 52px;
+    margin-bottom: 16px;
+}
+
+.placement-card-name {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--black);
+    margin-bottom: 16px;
+}
+
+.placement-card-address {
+    margin-bottom: 20px;
+}
+
+
+/* ДЕВЯТАЯ "особая" карточка размещения */
+.placement-special-item {
+    border-radius: 15px;
+    width: 373px;
+    min-height: 440px;
+    background-image: url(/assets/img/placement-special-item-background.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.placement-special-item-container {
+    width: 265px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 200%;
+    color: var(--white);
+    font-family: 'MullerMedium', sans-serif;
+}
+
+.placement-special-item-link {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 27px;
+}

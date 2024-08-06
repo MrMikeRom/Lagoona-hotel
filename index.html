@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/global-style.css">
+    <link rel="stylesheet" href="/css/index.css">
     <title>Lagoona hotel</title>
 </head>
 
@@ -16,120 +19,130 @@
         <!-- Семантический тег <header> / Шапка сайта -->
         <header class="header">
 
+            <div class="header-top">
 
-            <!-- ЛОГОТИП -->
-            <div class="header-logo">
-                <a href="/" target="_self" class="logo">
-                    <img src="assets/img/lagoona-logotip.svg" alt="Lagoona logo">
-                </a>
+                <div class="flex logo-phone-box">
+
+
+                    <!-- ЛОГОТИП -->
+                    <div class="header-logo">
+                        <a href="/" target="_self" class="logo">
+                            <img src="assets/img/lagoona-logotip.svg" alt="Lagoona logo">
+                        </a>
+                    </div>
+
+
+                    <!-- КОНТАКТНЫЙ ТЕЛЕФОН -->
+                    <div class="header-contact-number">
+                        <a href="tel:+74953225448" class="contact-number">
+                            +7 495 322-54-48
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- НАЗАД В ЛИЧНЫЙ КАБИНЕТ -->
+                <div class="header-back-to-personal-account">
+                    <a href="#" target="_self">
+                        <svg width="21" height="12" viewBox="0 0 21 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.59 1.41L14.17 5H0V7H14.17L10.58 10.59L12 12L18 6L12 0L10.59 1.41ZM19 0V12H21V0H19Z"
+                                fill="#CC9933" />
+                        </svg>
+                        Личный кабинет
+                    </a>
+                </div>
+
+
             </div>
 
 
-            <!-- КОНТАКТНЫЙ ТЕЛЕФОН -->
-            <div class="header-contact-number">
-                <a href="tel:+74953225448" class="contact-number">
-                    +7 495 322-54-48
-                </a>
-            </div>
+
+            <div class="header-bottom">
 
 
-            <!-- НАЗАД В ЛИЧНЫЙ КАБИНЕТ -->
-            <div class="header-back-to-personal-account">
-                <a href="#" target="_self" class="back-to-personal-account-link">
-                    <svg width="21" height="12" viewBox="0 0 21 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.59 1.41L14.17 5H0V7H14.17L10.58 10.59L12 12L18 6L12 0L10.59 1.41ZM19 0V12H21V0H19Z"
-                            fill="#CC9933" />
-                    </svg>
-                    Личный кабинет
-                </a>
-            </div>
+                <!-- Семантический тег <nav> / Навигация-->
+                <nav class="nav">
+
+                    <!-- Список навигации -->
+                    <ul class="nav-list">
+
+                        <!-- 1 элемент навигации -->
+                        <li class="nav-item">
+
+                            <a href="#about-us" class="nav-link">
+                                О нас
+                            </a>
+
+                        </li>
 
 
-            <!-- Семантический тег <nav> / Навигация-->
-            <nav class="nav">
+                        <!-- 2 элемент навигации -->
+                        <li class="nav-item">
 
-                <!-- Список навигации -->
-                <ul class="nav-list">
+                            <a href="#services" class="nav-link">
+                                Услуги
+                            </a>
 
-                    <!-- 1 элемент навигации -->
-                    <li class="nav-item">
-
-                        <a href="#about-us" class="nav-link">
-                            О нас
-                        </a>
-
-                    </li>
+                        </li>
 
 
-                    <!-- 2 элемент навигации -->
-                    <li class="nav-item">
+                        <!-- 3 элемент навигации -->
+                        <li class="nav-item">
 
-                        <a href="#services" class="nav-link">
-                            Услуги
-                        </a>
+                            <a href="#advantages" class="nav-link">
+                                Преимущества
+                            </a>
 
-                    </li>
-
-
-                    <!-- 3 элемент навигации -->
-                    <li class="nav-item">
-
-                        <a href="#advantages" class="nav-link">
-                            Преимущества
-                        </a>
-
-                    </li>
+                        </li>
 
 
-                    <!-- 4 элемент навигации -->
-                    <li class="nav-item">
+                        <!-- 4 элемент навигации -->
+                        <li class="nav-item">
 
-                        <a href="#placement" class="nav-link">
-                            Размещение
-                        </a>
+                            <a href="#placement" class="nav-link">
+                                Размещение
+                            </a>
 
-                    </li>
-
-
-                    <!-- 5 элемент навигации -->
-                    <li class="nav-item">
-
-                        <a href="#" class="nav-link">
-                            Блог
-                        </a>
-
-                    </li>
+                        </li>
 
 
-                    <!-- 6 элемент навигации -->
-                    <li class="nav-item">
+                        <!-- 5 элемент навигации -->
+                        <li class="nav-item">
 
-                        <a href="#" class="nav-link">
-                            Контакты
-                        </a>
+                            <a href="#" class="nav-link">
+                                Блог
+                            </a>
 
-                    </li>
-
-                </ul>
+                        </li>
 
 
-                <!--  Первая кнопка в header-е  -->
-                <div class="box-button">
+                        <!-- 6 элемент навигации -->
+                        <li class="nav-item">
 
-                    <button class="btn header-btn">Хочу тур</button>
+                            <a href="#" class="nav-link">
+                                Контакты
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+                </nav>
+
+
+                <div class="button-wrap">
+
+                    <!--  Первая кнопка в header-е  -->
+                    <button class="btn-reset btn">Хочу тур</button>
+
+                    <!--  Вторая кнопка в header-е  -->
+                    <button class="btn-reset btn">Обратный звонок</button>
 
                 </div>
 
 
-                <!--  Вторая кнопка в header-е  -->
-                <div class="box-button">
-
-                    <button class="btn header-btn">Обратный звонок</button>
-
-                </div>
-
-
-            </nav>
+            </div>
 
         </header>
 
@@ -157,7 +170,7 @@
 
                             <div class="special-offers">
 
-                                <h3 class="special-item-title sit1">Мальдивские острова</h3>
+                                <h3 class="special-item-title">Мальдивские острова</h3>
 
                                 <p class="special-item-price">от 55 000 ₽</p>
 
@@ -179,7 +192,7 @@
 
                             <div class="special-offers">
 
-                                <h3 class="special-item-title sit2">Горящий тур на&nbsp;остров Крит</h3>
+                                <h3 class="special-item-title">Горящий тур на&nbsp;остров Крит</h3>
 
                                 <p class="special-item-price">от 30 000 ₽</p>
 
@@ -205,9 +218,9 @@
                         <div class="right-block-item">
 
                             <div class="right-special-offers">
-                                <h3 class="special-item-title sit3">Номера категории люкс</h3>
+                                <h3 class="special-item-title right-special-item-title">Номера категории люкс</h3>
 
-                                <p class="special-item-price">от 5 000 ₽</p>
+                                <p class="special-item-price sip3">от 5 000 ₽</p>
 
                                 <a href="#" class="more-about-this-link">
                                     Подробнее <svg width="11" height="18" viewBox="0 0 11 18" fill="none"
@@ -256,77 +269,77 @@
 
                 <ul class="services-list">
 
-                    <li class="services-item">
 
-                        <div class="services-card services-beckground">
-                            <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-                            <div class="services-card-body">
+                    <li>
 
-                                <a href="#" class="exclusive-service-link">
-                                    Эксклюзивное обслуживание<img src="assets/img/sm-arrow.svg" alt=">">
-                                </a>
+                        <div class="services-card-prew one-prew"></div>
 
-                                <p class="card-body-text">Равным образом постоянный количественный рост и&nbsp;сфера
-                                    нашей
-                                    активности</p>
+                        <div class="services-card-body">
 
-                            </div>
+                            <a href="#" class="service-link">
+                                Эксклюзивное обслуживание <img src="assets/img/sm-arrow.svg" alt=">">
+                            </a>
+
+                            <p class="card-body-text">Равным образом постоянный количественный рост и&nbsp;сфера
+                                нашей
+                                активности</p>
+
                         </div>
 
                     </li>
 
 
-                    <li class="services-item">
+                    <li>
 
-                        <div class="services-card services-beckground">
-                            <div class="services-card-body">
+                        <div class="services-card-prew two-prew"></div>
 
-                                <a href="#" class="hall-rental-link">
-                                    Аренда банкетных залов<img src="assets/img/sm-arrow.svg" alt=">">
-                                </a>
+                        <div class="services-card-body">
 
-                                <p class="card-body-text">Значимость этих проблем настолько очевидна, что дальнейшее
-                                    развитие различных форм</p>
+                            <a href="#" class="service-link">
+                                Аренда банкетных залов <img src="assets/img/sm-arrow.svg" alt=">">
+                            </a>
 
-                            </div>
+                            <p class="card-body-text">Значимость этих проблем настолько очевидна, что дальнейшее
+                                развитие различных форм</p>
+
                         </div>
 
                     </li>
 
 
-                    <li class="services-item">
+                    <li>
 
-                        <div class="services-card services-beckground">
-                            <div class="services-card-body">
+                        <div class="services-card-prew three-prew"></div>
 
-                                <a href="#" class="types-of-services-link">
-                                    Сауны, бассейны, бани, фитнес-залы<img src="assets/img/sm-arrow.svg" alt=">">
-                                </a>
+                        <div class="services-card-body">
 
-                                <p class="card-body-text">Не&nbsp;следует, однако забывать, что начало повседневной
-                                    работы
-                                    по&nbsp;формированию позиции</p>
+                            <a href="#" class="service-link">
+                                Сауны, бассейны, бани, фитнес-залы <img src="assets/img/sm-arrow.svg" alt=">">
+                            </a>
 
-                            </div>
+                            <p class="card-body-text">Не&nbsp;следует, однако забывать, что начало повседневной
+                                работы
+                                по&nbsp;формированию позиции</p>
+
                         </div>
 
                     </li>
 
 
-                    <li class="services-item">
+                    <li>
 
-                        <div class="services-card services-beckground">
-                            <div class="services-card-body">
+                        <div class="services-card-prew four-prew"></div>
 
-                                <a href="#" class="car-parking-link">
-                                    Охраняемые автомобильные стоянки<img src="assets/img/sm-arrow.svg" alt=">">
-                                </a>
+                        <div class="services-card-body">
 
-                                <p class="card-body-text">Не&nbsp;следует, однако забывать, что начало повседневной
-                                    работы
-                                    по&nbsp;формированию позиции</p>
+                            <a href="#" class="service-link">
+                                Охраняемые автомобильные стоянки <img src="assets/img/sm-arrow.svg" alt=">">
+                            </a>
 
-                            </div>
+                            <p class="card-body-text">Не&nbsp;следует, однако забывать, что начало повседневной
+                                работы
+                                по&nbsp;формированию позиции</p>
+
                         </div>
 
                     </li>
@@ -348,7 +361,9 @@
                 <ul class="advantages-list">
 
                     <!-- ПЕРВЫЙ обьект -->
-                    <li class="advantages-item advantages-background">
+                    <li class="advantages-item">
+
+                        <div class="advantages-background bathtub-icon"></div>
 
                         <p class="advantages-item-text">Идейные соображения высшего порядка,
                             а&nbsp;также постоянный количественный рост</p>
@@ -357,7 +372,9 @@
 
 
                     <!-- ВТОРОЙ обьект -->
-                    <li class="advantages-item advantages-background">
+                    <li class="advantages-item">
+
+                        <div class="advantages-background hanger-icon"></div>
 
                         <p class="advantages-item-text">Значимость этих проблем настолько очевидна, что вопрос остаётся
                             открытым</p>
@@ -366,7 +383,9 @@
 
 
                     <!-- ТРЕТИЙ обьект -->
-                    <li class="advantages-item advantages-background">
+                    <li class="advantages-item">
+
+                        <div class="advantages-background heating-icon"></div>
 
                         <p class="advantages-item-text">Таким образом реализация плановых заданий играет важную роль для
                             понимания</p>
@@ -375,7 +394,9 @@
 
 
                     <!-- ЧЕТВЕРТЫЙ обьект -->
-                    <li class="advantages-item advantages-background">
+                    <li class="advantages-item">
+
+                        <div class="advantages-background key-icon"></div>
 
                         <p class="advantages-item-text">Повседневная практика показывает, что сложившаяся структура
                             организации</p>
@@ -384,7 +405,9 @@
 
 
                     <!-- ПЯТЫЙ обьект -->
-                    <li class="advantages-item advantages-background">
+                    <li class="advantages-item">
+
+                        <div class="advantages-background parking-icon"></div>
 
                         <p class="advantages-item-text">Равным образом рамки и&nbsp;место обучения кадров способствует
                             подготовки сотрудника</p>
@@ -393,7 +416,9 @@
 
 
                     <!-- ШЕСТОЙ обьект -->
-                    <li class="advantages-item advantages-background">
+                    <li class="advantages-item">
+
+                        <div class="advantages-background reception-icon"></div>
 
                         <p class="advantages-item-text">Консультация с&nbsp;активом влечёт за&nbsp;собой процесс
                             внедрения услуг нашего сервиса</p>
@@ -402,7 +427,9 @@
 
 
                     <!-- СЕДЬМОЙ обьект -->
-                    <li class="advantages-item advantages-background">
+                    <li class="advantages-item">
+
+                        <div class="advantages-background security-box"></div>
 
                         <p class="advantages-item-text">Повседневная практика показывает, что дальнейшее развитие
                             различных</p>
@@ -411,7 +438,9 @@
 
 
                     <!-- ВОСЬМОЙ обьект -->
-                    <li class="advantages-item advantages-background">
+                    <li class="advantages-item">
+
+                        <div class="advantages-background swimming-pool-icon"></div>
 
                         <p class="advantages-item-text">Значимость этого настолько очевидна, что консультация наших
                             экспертов помогает</p>
@@ -438,39 +467,40 @@
                     <!-- ПЕРВАЯ карточка размещения -->
                     <li class="placement-item">
 
-                        <div class="placement-item-container">
+                        <div>
 
+                            <div>
 
-                            <div class="placement-card-head 1head">
-
-                                <img src="assets/img/Lagoona-española.svg" alt="Фотография вида на отель española"
-                                    class="placement-card-img">
+                                <img src="assets/img/Lagoona-española.svg" alt="Фотография вида на отель española">
 
                             </div>
 
 
                             <div class="placement-card-body">
 
+                                <div class="placement-card-pr-ra">
+                                    <div>
+                                        <span class="placement-grey-text">от</span> <strong
+                                            class="placement-black-price">4 698</strong> <span
+                                            class="placement-price-black">/ ночь</span>
+                                    </div>
 
-                                <div class="placement-card-price">
-                                    <span class="placement-grey-text">от</span> <strong>4 698</strong> / ночь
-                                </div>
-
-                                <div class="star-rating">
-                                    <img src="assets/img/gold-star.svg" alt="Рейтинг отеля 4 из 5">
-                                    <img src="assets/img/gold-star.svg" alt="">
-                                    <img src="assets/img/gold-star.svg" alt="">
-                                    <img src="assets/img/gold-star.svg" alt="">
-                                    <img src="assets/img/white-star.svg" alt="">
+                                    <div>
+                                        <img src="assets/img/gold-star.svg" alt="Рейтинг отеля 4 из 5">
+                                        <img src="assets/img/gold-star.svg" alt="">
+                                        <img src="assets/img/gold-star.svg" alt="">
+                                        <img src="assets/img/gold-star.svg" alt="">
+                                        <img src="assets/img/white-star.svg" alt="">
+                                    </div>
                                 </div>
 
                                 <h3 class="placement-card-name">Lagoona espa&ntilde;ola</h3>
 
                                 <div class="placement-grey-text placement-card-address">Барселона, Испания</div>
 
-                                <div class="placement-card-button">
+                                <div>
 
-                                    <button class="btn">Номера</button>
+                                    <button class="btn-reset btn">Номера</button>
 
                                 </div>
 
@@ -485,39 +515,41 @@
                     <!-- ВТОРАЯ карточка размещения -->
                     <li class="placement-item">
 
-                        <div class="placement-item-container">
+                        <div>
 
+                            <div>
 
-                            <div class="placement-card-head 2head">
-
-                                <img src="assets/img/Lagoona-son-típicas.svg" alt="Фотография вида на отель son típicas"
-                                    class="placement-card-img">
+                                <img src="assets/img/Lagoona-son-típicas.svg"
+                                    alt="Фотография вида на отель son típicas">
 
                             </div>
 
 
                             <div class="placement-card-body">
 
+                                <div class="placement-card-pr-ra">
+                                    <div>
+                                        <span class="placement-grey-text">от</span> <strong
+                                            class="placement-black-price">5 148</strong> <span
+                                            class="placement-price-black">/ ночь</span>
+                                    </div>
 
-                                <div class="placement-card-price">
-                                    <span class="placement-grey-text">от</span> <strong>5 148</strong> / ночь
-                                </div>
-
-                                <div class="star-rating">
-                                    <img src="assets/img/gold-star.svg" alt="Рейтинг отеля 4 из 5">
-                                    <img src="assets/img/gold-star.svg" alt="">
-                                    <img src="assets/img/gold-star.svg" alt="">
-                                    <img src="assets/img/gold-star.svg" alt="">
-                                    <img src="assets/img/white-star.svg" alt="">
+                                    <div>
+                                        <img src="assets/img/gold-star.svg" alt="Рейтинг отеля 4 из 5">
+                                        <img src="assets/img/gold-star.svg" alt="">
+                                        <img src="assets/img/gold-star.svg" alt="">
+                                        <img src="assets/img/gold-star.svg" alt="">
+                                        <img src="assets/img/white-star.svg" alt="">
+                                    </div>
                                 </div>
 
                                 <h3 class="placement-card-name">Lagoona son t&iacute;picas</h3>
 
                                 <div class="placement-grey-text placement-card-address">Барселона, Испания</div>
 
-                                <div class="placement-card-button">
+                                <div>
 
-                                    <button class="btn">Номера</button>
+                                    <button class="btn-reset btn">Номера</button>
 
                                 </div>
 
@@ -533,39 +565,41 @@
                     <!-- ТРЕТЬЯ карточка размещения -->
                     <li class="placement-item">
 
-                        <div class="placement-item-container">
+                        <div>
 
-
-                            <div class="placement-card-head 3head">
+                            <div>
 
                                 <img src="assets/img/Lagoona-de-la-guerra.svg"
-                                    alt="Фотография вида на отель de la guerra" class="placement-card-img">
+                                    alt="Фотография вида на отель de la guerra">
 
                             </div>
 
 
                             <div class="placement-card-body">
 
+                                <div class="placement-card-pr-ra">
+                                    <div>
+                                        <span class="placement-grey-text">от</span> <strong
+                                            class="placement-black-price">6 254</strong> <span
+                                            class="placement-price-black">/ ночь</span>
+                                    </div>
 
-                                <div class="placement-card-price">
-                                    <span class="placement-grey-text">от</span> <strong>6 254</strong> / ночь
-                                </div>
-
-                                <div class="star-rating">
-                                    <img src="assets/img/gold-star.svg" alt="Рейтинг отеля 5 из 5">
-                                    <img src="assets/img/gold-star.svg" alt="">
-                                    <img src="assets/img/gold-star.svg" alt="">
-                                    <img src="assets/img/gold-star.svg" alt="">
-                                    <img src="assets/img/gold-star.svg" alt="">
+                                    <div>
+                                        <img src="assets/img/gold-star.svg" alt="Рейтинг отеля 5 из 5">
+                                        <img src="assets/img/gold-star.svg" alt="">
+                                        <img src="assets/img/gold-star.svg" alt="">
+                                        <img src="assets/img/gold-star.svg" alt="">
+                                        <img src="assets/img/gold-star.svg" alt="">
+                                    </div>
                                 </div>
 
                                 <h3 class="placement-card-name">Lagoona de&nbsp;la&nbsp;guerra</h3>
 
                                 <div class="placement-grey-text placement-card-address">Барселона, Испания</div>
 
-                                <div class="placement-card-button">
+                                <div>
 
-                                    <button class="btn">Номера</button>
+                                    <button class="btn-reset btn">Номера</button>
 
                                 </div>
 
@@ -581,39 +615,41 @@
                     <!-- ЧЕТВЕРТАЯ карточка размещения -->
                     <li class="placement-item">
 
-                        <div class="placement-item-container">
+                        <div>
 
-
-                            <div class="placement-card-head 4head">
+                            <div>
 
                                 <img src="assets/img/Lagoona-mentira-piadosa.svg"
-                                    alt="Фотография вида на отель mentira piadosa" class="placement-card-img">
+                                    alt="Фотография вида на отель mentira piadosa">
 
                             </div>
 
 
                             <div class="placement-card-body">
 
+                                <div class="placement-card-pr-ra">
+                                    <div>
+                                        <span class="placement-grey-text">от</span> <strong
+                                            class="placement-black-price">6 320</strong> <span
+                                            class="placement-price-black">/ ночь</span>
+                                    </div>
 
-                                <div class="placement-card-price">
-                                    <span class="placement-grey-text">от</span> <strong>6 320</strong> / ночь
-                                </div>
-
-                                <div class="star-rating">
-                                    <img src="assets/img/gold-star.svg" alt="Рейтинг отеля 5 из 5">
-                                    <img src="assets/img/gold-star.svg" alt="">
-                                    <img src="assets/img/gold-star.svg" alt="">
-                                    <img src="assets/img/gold-star.svg" alt="">
-                                    <img src="assets/img/gold-star.svg" alt="">
+                                    <div>
+                                        <img src="assets/img/gold-star.svg" alt="Рейтинг отеля 5 из 5">
+                                        <img src="assets/img/gold-star.svg" alt="">
+                                        <img src="assets/img/gold-star.svg" alt="">
+                                        <img src="assets/img/gold-star.svg" alt="">
+                                        <img src="assets/img/gold-star.svg" alt="">
+                                    </div>
                                 </div>
 
                                 <h3 class="placement-card-name">Lagoona mentira piadosa</h3>
 
                                 <div class="placement-grey-text placement-card-address">Барселона, Испания</div>
 
-                                <div class="placement-card-button">
+                                <div>
 
-                                    <button class="btn">Номера</button>
+                                    <button class="btn-reset btn">Номера</button>
 
                                 </div>
 
@@ -629,39 +665,41 @@
                     <!-- ПЯТАЯ карточка размещения -->
                     <li class="placement-item">
 
-                        <div class="placement-item-container">
+                        <div>
 
-
-                            <div class="placement-card-head 5head">
+                            <div>
 
                                 <img src="assets/img/Lagoona-empujar-la-creatividad.svg"
-                                    alt="Фотография вида на отель empujar la creatividad" class="placement-card-img">
+                                    alt="Фотография вида на отель empujar la creatividad">
 
                             </div>
 
 
                             <div class="placement-card-body">
 
+                                <div class="placement-card-pr-ra">
+                                    <div>
+                                        <span class="placement-grey-text">от</span> <strong
+                                            class="placement-black-price">6 457</strong> <span
+                                            class="placement-price-black">/ ночь</span>
+                                    </div>
 
-                                <div class="placement-card-price">
-                                    <span class="placement-grey-text">от</span> <strong>6 457</strong> / ночь
-                                </div>
-
-                                <div class="star-rating">
-                                    <img src="assets/img/gold-star.svg" alt="Рейтинг отеля 4 из 5">
-                                    <img src="assets/img/gold-star.svg" alt="">
-                                    <img src="assets/img/gold-star.svg" alt="">
-                                    <img src="assets/img/gold-star.svg" alt="">
-                                    <img src="assets/img/white-star.svg" alt="">
+                                    <div>
+                                        <img src="assets/img/gold-star.svg" alt="Рейтинг отеля 4 из 5">
+                                        <img src="assets/img/gold-star.svg" alt="">
+                                        <img src="assets/img/gold-star.svg" alt="">
+                                        <img src="assets/img/gold-star.svg" alt="">
+                                        <img src="assets/img/white-star.svg" alt="">
+                                    </div>
                                 </div>
 
                                 <h3 class="placement-card-name">Lagoona empujar la&nbsp;creatividad</h3>
 
                                 <div class="placement-grey-text placement-card-address">Барселона, Испания</div>
 
-                                <div class="placement-card-button">
+                                <div>
 
-                                    <button class="btn">Номера</button>
+                                    <button class="btn-reset btn">Номера</button>
 
                                 </div>
 
@@ -677,39 +715,40 @@
                     <!-- ШЕСТАЯ карточка размещения -->
                     <li class="placement-item">
 
-                        <div class="placement-item-container">
+                        <div>
 
+                            <div>
 
-                            <div class="placement-card-head 6head">
-
-                                <img src="assets/img/Lagoona-el-retorno.svg" alt="Фотография вида на отель el retorno"
-                                    class="placement-card-img">
+                                <img src="assets/img/Lagoona-el-retorno.svg" alt="Фотография вида на отель el retorno">
 
                             </div>
 
 
                             <div class="placement-card-body">
 
+                                <div class="placement-card-pr-ra">
+                                    <div>
+                                        <span class="placement-grey-text">от</span> <strong
+                                            class="placement-black-price">6 320</strong> <span
+                                            class="placement-price-black">/ ночь</span>
+                                    </div>
 
-                                <div class="placement-card-price">
-                                    <span class="placement-grey-text">от</span> <strong>6 320</strong> / ночь
-                                </div>
-
-                                <div class="star-rating">
-                                    <img src="assets/img/gold-star.svg" alt="Рейтинг отеля 4 из 5">
-                                    <img src="assets/img/gold-star.svg" alt="">
-                                    <img src="assets/img/gold-star.svg" alt="">
-                                    <img src="assets/img/gold-star.svg" alt="">
-                                    <img src="assets/img/white-star.svg" alt="">
+                                    <div>
+                                        <img src="assets/img/gold-star.svg" alt="Рейтинг отеля 4 из 5">
+                                        <img src="assets/img/gold-star.svg" alt="">
+                                        <img src="assets/img/gold-star.svg" alt="">
+                                        <img src="assets/img/gold-star.svg" alt="">
+                                        <img src="assets/img/white-star.svg" alt="">
+                                    </div>
                                 </div>
 
                                 <h3 class="placement-card-name">Lagoona el&nbsp;retorno</h3>
 
                                 <div class="placement-grey-text placement-card-address">Барселона, Испания</div>
 
-                                <div class="placement-card-button">
+                                <div>
 
-                                    <button class="btn">Номера</button>
+                                    <button class="btn-reset btn">Номера</button>
 
                                 </div>
 
@@ -725,39 +764,41 @@
                     <!-- СЕДЬМАЯ карточка размещения -->
                     <li class="placement-item">
 
-                        <div class="placement-item-container">
+                        <div>
 
-
-                            <div class="placement-card-head 7head">
+                            <div>
 
                                 <img src="assets/img/Lagoona-mentira-piadosa-two.svg"
-                                    alt="Фотография вида на отель mentira piadosa two" class="placement-card-img">
+                                    alt="Фотография вида на отель mentira piadosa two">
 
                             </div>
 
 
                             <div class="placement-card-body">
 
+                                <div class="placement-card-pr-ra">
+                                    <div>
+                                        <span class="placement-grey-text">от</span> <strong
+                                            class="placement-black-price">6 505</strong> <span
+                                            class="placement-price-black">/ ночь</span>
+                                    </div>
 
-                                <div class="placement-card-price">
-                                    <span class="placement-grey-text">от</span> <strong>6 505</strong> / ночь
-                                </div>
-
-                                <div class="star-rating">
-                                    <img src="assets/img/gold-star.svg" alt="Рейтинг отеля 5 из 5">
-                                    <img src="assets/img/gold-star.svg" alt="">
-                                    <img src="assets/img/gold-star.svg" alt="">
-                                    <img src="assets/img/gold-star.svg" alt="">
-                                    <img src="assets/img/gold-star.svg" alt="">
+                                    <div>
+                                        <img src="assets/img/gold-star.svg" alt="Рейтинг отеля 5 из 5">
+                                        <img src="assets/img/gold-star.svg" alt="">
+                                        <img src="assets/img/gold-star.svg" alt="">
+                                        <img src="assets/img/gold-star.svg" alt="">
+                                        <img src="assets/img/gold-star.svg" alt="">
+                                    </div>
                                 </div>
 
                                 <h3 class="placement-card-name">Lagoona mentira piadosa</h3>
 
                                 <div class="placement-grey-text placement-card-address">Барселона, Испания</div>
 
-                                <div class="placement-card-button">
+                                <div>
 
-                                    <button class="btn">Номера</button>
+                                    <button class="btn-reset btn">Номера</button>
 
                                 </div>
 
@@ -773,39 +814,41 @@
                     <!-- ВОСЬМАЯ карточка размещения -->
                     <li class="placement-item">
 
-                        <div class="placement-item-container">
+                        <div>
 
-
-                            <div class="placement-card-head 8head">
+                            <div>
 
                                 <img src="assets/img/Lagoona-suerte-siguió-siempre.svg"
-                                    alt="Фотография вида на отель suerte siguió siempre" class="placement-card-img">
+                                    alt="Фотография вида на отель suerte siguió siempre">
 
                             </div>
 
 
                             <div class="placement-card-body">
 
+                                <div class="placement-card-pr-ra">
+                                    <div>
+                                        <span class="placement-grey-text">от</span> <strong
+                                            class="placement-black-price">6 824</strong> <span
+                                            class="placement-price-black">/ ночь</span>
+                                    </div>
 
-                                <div class="placement-card-price">
-                                    <span class="placement-grey-text">от</span> <strong>6 824</strong> / ночь
-                                </div>
-
-                                <div class="star-rating">
-                                    <img src="assets/img/gold-star.svg" alt="Рейтинг отеля 4 из 5">
-                                    <img src="assets/img/gold-star.svg" alt="">
-                                    <img src="assets/img/gold-star.svg" alt="">
-                                    <img src="assets/img/gold-star.svg" alt="">
-                                    <img src="assets/img/white-star.svg" alt="">
+                                    <div>
+                                        <img src="assets/img/gold-star.svg" alt="Рейтинг отеля 4 из 5">
+                                        <img src="assets/img/gold-star.svg" alt="">
+                                        <img src="assets/img/gold-star.svg" alt="">
+                                        <img src="assets/img/gold-star.svg" alt="">
+                                        <img src="assets/img/white-star.svg" alt="">
+                                    </div>
                                 </div>
 
                                 <h3 class="placement-card-name">Lagoona suerte sigui&oacute; siempre</h3>
 
                                 <div class="placement-grey-text placement-card-address">Барселона, Испания</div>
 
-                                <div class="placement-card-button">
+                                <div>
 
-                                    <button class="btn">Номера</button>
+                                    <button class="btn-reset btn">Номера</button>
 
                                 </div>
 
@@ -823,21 +866,14 @@
 
                         <div class="placement-special-item-container">
 
+                            <a href="#" class="placement-special-item-link">
+                                Посмотреть все варианты<svg width="10" height="18" viewBox="0 0 10 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.778175 1.22183L8.55635 9L0.778175 16.7782" stroke="white"
+                                        stroke-width="2" />
+                                </svg>
 
-                            <!-- Картинка бекграундом будет -->
-                            <div class="placement-special-item-head">
-
-                                <a href="#">
-                                    Посмотреть все варианты<svg width="10" height="18" viewBox="0 0 10 18" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0.778175 1.22183L8.55635 9L0.778175 16.7782" stroke="white"
-                                            stroke-width="2" />
-                                    </svg>
-
-                                </a>
-
-                            </div>
-
+                            </a>
 
                         </div>
 
