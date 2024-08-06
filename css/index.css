@@ -226,6 +226,7 @@
     padding-right: 26px;
     padding-bottom: 45px;
     padding-left: 45px;
+    background-color: var(--white);
 }
 
 .service-link {
