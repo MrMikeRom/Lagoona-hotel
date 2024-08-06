@@ -425,6 +425,9 @@
     width: 373px;
     min-height: 440px;
     background-image: url(/assets/img/placement-special-item-background.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
