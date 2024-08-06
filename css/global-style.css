@@ -3,7 +3,7 @@ html {
 }
 
 body {
-	background-color: #f1f1f1;
+	background-color: var(--body-grey);
 }
 
 *,
@@ -19,6 +19,8 @@ body {
     --white: #fff;
     --grey: #666;
     --pale-grey: #999;
+	--body-grey: #f1f1f1
+	--grey-header: #333;
 }
 
 .container {
@@ -36,7 +38,7 @@ h2 {
 	margin: 0;
 	font-weight: 400;
     font-size: 40px;
-    color: #333;
+    color: var(--grey-header);
     margin-bottom: 20px;
     margin-left: 40px;
 }

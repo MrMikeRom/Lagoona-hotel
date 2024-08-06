@@ -448,3 +448,16 @@
     align-items: center;
     margin-bottom: 27px;
 }
+
+
+
+/* Секция  "ХОЧУ ТУР" или "БЛОГ" */
+.want-a-tour-title {
+    color: var(--black);
+    padding-top: 45px;
+}
+
+.want-a-tour-form {
+    background: var(--white);
+    
+}
