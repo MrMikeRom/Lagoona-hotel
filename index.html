@@ -896,12 +896,64 @@
 
                     <div class="form-container">
 
-                        <input type="text" name="username" placeholder="Юзернейм">
 
-                        <input type="radio" name="city" value="Санкт-Петербург"> Санкт-Петербург
-                        <input type="radio" name="city" value="Москва"> Москва
-                        <input type="radio" name="city" value="Сочи"> Сочи
-                        <input type="radio" name="city" value="Грозный"> Грозный
+                        <div class="form-city">
+
+                            <p class="form-city-text">Город вылета</p>
+
+                            <select name="city" class="form-city-list">
+                                <option value="Санкт-Петербург"> Санкт-Петербург
+                                <option value="Москва"> Москва
+                                <option value="Сочи"> Сочи
+                                <option value="Грозный"> Грозный
+                            </select>
+
+                        </div>
+
+                        
+                        <div class="form-country">
+
+                            <p class="form-country-text">Страна</p>
+
+                            <select name="city" class="form-country-list">
+                                <option value="Россия"> Россия
+                                <option value="Омэрика"> Омэрика
+                                <option value="Китай"> Китай
+                                <option value="Австралия"> Австралия
+                            </select>
+
+                        </div>
+
+
+                        <div class="forn-date">
+
+                            <p class="form-date-text">Дата прибытия</p>
+
+                            <input type="date">
+
+                        </div>
+
+
+                        <div class="forn-nights">
+
+                            <p class="form-nights-text">Ночей</p>
+
+                            <input type="number">
+
+                        </div>
+
+
+                        <div class="forn-tourists">
+
+                            <p class="form-tourists-text">Туристы</p>
+
+                            <input type="number">
+
+                        </div>
+
+
+                        <button type="submit" class="btn form-btn">Найти</button>
+
 
                     </div>
 
