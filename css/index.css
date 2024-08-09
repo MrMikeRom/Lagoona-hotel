@@ -459,4 +459,27 @@
 
 .want-a-tour-form {
     background: var(--white);
+    border-radius: 15px;
+    width: 1080px;
+    display: flex;
+    margin-left: 45px;
+    margin-bottom: 45px;
+    gap: 41px;
+}
+
+.form-city {
+    margin-left: 28px;
+}
+
+.form-text {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--black);
+    margin-bottom: 15px;
+}
+
+.form-input-field {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--black);
 }

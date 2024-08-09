@@ -120,7 +120,7 @@
                         <!-- 6 элемент навигации -->
                         <li class="nav-item">
 
-                            <a href="#" class="nav-link">
+                            <a href="#contacts" class="nav-link">
                                 Контакты
                             </a>
 
@@ -894,68 +894,64 @@
 
                 <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="want-a-tour-form">
 
-                    <div class="form-container">
 
+                    <div class="form-city">
 
-                        <div class="form-city">
+                        <p class="form-text">Город вылета</p>
 
-                            <p class="form-city-text">Город вылета</p>
-
-                            <select name="city" class="form-city-list">
-                                <option value="Санкт-Петербург"> Санкт-Петербург
-                                <option value="Москва"> Москва
-                                <option value="Сочи"> Сочи
-                                <option value="Грозный"> Грозный
-                            </select>
-
-                        </div>
-
-                        
-                        <div class="form-country">
-
-                            <p class="form-country-text">Страна</p>
-
-                            <select name="city" class="form-country-list">
-                                <option value="Россия"> Россия
-                                <option value="Омэрика"> Омэрика
-                                <option value="Китай"> Китай
-                                <option value="Австралия"> Австралия
-                            </select>
-
-                        </div>
-
-
-                        <div class="forn-date">
-
-                            <p class="form-date-text">Дата прибытия</p>
-
-                            <input type="date">
-
-                        </div>
-
-
-                        <div class="forn-nights">
-
-                            <p class="form-nights-text">Ночей</p>
-
-                            <input type="number">
-
-                        </div>
-
-
-                        <div class="forn-tourists">
-
-                            <p class="form-tourists-text">Туристы</p>
-
-                            <input type="number">
-
-                        </div>
-
-
-                        <button type="submit" class="btn form-btn">Найти</button>
-
+                        <select name="city" class="form-input-field">
+                            <option value="Санкт-Петербург"> Санкт-Петербург
+                            <option value="Москва"> Москва
+                            <option value="Сочи"> Сочи
+                            <option value="Грозный"> Грозный
+                        </select>
 
                     </div>
+
+
+                    <div class="form-country">
+
+                        <p class="form-text">Страна</p>
+
+                        <select name="city" class="form-input-field">
+                            <option value="Россия"> Россия
+                            <option value="Омэрика"> Омэрика
+                            <option value="Китай"> Китай
+                            <option value="Австралия"> Австралия
+                        </select>
+
+                    </div>
+
+
+                    <div class="forn-date">
+
+                        <p class="form-text">Дата прибытия</p>
+
+                        <input type="date" required class="form-input-field">
+
+                    </div>
+
+
+                    <div class="forn-nights">
+
+                        <p class="form-text">Ночей</p>
+
+                        <input type="number" required min="1" class="form-input-field">
+
+                    </div>
+
+
+                    <div class="forn-tourists">
+
+                        <p class="form-text">Туристы</p>
+
+                        <input type="number" required min="1" class="form-input-field">
+
+                    </div>
+
+
+                    <button type="submit" class="btn form-btn">Найти</button>
+
 
                 </form>
 
@@ -963,8 +959,10 @@
 
 
 
+            <!-- Секция  КОНТАКТЫ -->
+            <section id="contacts">
 
-
+            </section>
 
 
         </main>
