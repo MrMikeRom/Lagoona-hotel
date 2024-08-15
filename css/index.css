@@ -4,11 +4,9 @@
 }
 
 .header-top {
-    display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 30px;
-    
 }
 
 .logo-phone-box {
@@ -38,21 +36,18 @@
 
 /* NAV / НАВИГАЦИЯ */
 .header-bottom {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     margin-left: 45px;
 }
 
 .nav {
-    display: flex;
     flex-direction: row;
 }
 
 .nav-list {
     margin: 0;
     padding: 0;
-    display: flex;
     list-style: none;
     gap: 45px;
 }
@@ -64,7 +59,6 @@
 }
 
 .button-wrap {
-    display: flex;
     gap: 40px;
 }
 
@@ -78,6 +72,10 @@
     color: var(--yellow);
 }
 
+
+.main {
+    margin-bottom: 40px;
+}
 
 
 /* Секция СПЕЦПРЕДЛОЖЕНИЯ */
@@ -97,13 +95,10 @@
 }
 
 .special-offers-wrap{
-    display: flex;
     gap: 24px;
-
 }
 
 .left-block {
-    display: flex;
     flex-direction: column;
     gap: 24px;
 }
@@ -122,7 +117,6 @@
 }
 
 .special-offers {
-    display: flex;
     flex-direction: column;
     margin: 40px 108px 40px 45px;
 }
@@ -144,7 +138,6 @@
 }
 
 .more-about-this-link {
-    display: flex;
     font-weight: 400;
     font-size: 16px;
     color: var(--pale-yellow);
@@ -161,7 +154,6 @@
 }
 
 .right-block-item {
-    display: flex;
     flex-direction: column;
     justify-content: flex-end;
     width: 573px;
@@ -175,7 +167,6 @@
 }
 
 .right-special-offers {
-    display: flex;
     flex-direction: column;
     justify-content: flex-end;
     margin-left: 45px;
@@ -204,7 +195,6 @@
 
 /* Секция УСЛУГИ */
 .services-list {
-    display: flex;
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
@@ -230,7 +220,6 @@
 }
 
 .service-link {
-    display: flex;
     font-weight: 500;
     font-size: 20px;
     line-height: 200%;
@@ -276,7 +265,6 @@
 }
 
 .advantages-list {
-    display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -359,7 +347,6 @@
 /* Секция РАЗМЕЩЕНИЕ */
 .placement-list {
     list-style: none;
-    display: flex;
     margin: 0;
     padding: 0;
     margin-bottom: 70px;
@@ -401,7 +388,6 @@
 }
 
 .placement-card-pr-ra {
-    display: flex;
     flex-direction: row;
     gap: 52px;
     margin-bottom: 16px;
@@ -428,7 +414,6 @@
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    display: flex;
     flex-direction: column-reverse;
     align-items: center;
 }
@@ -443,7 +428,6 @@
 }
 
 .placement-special-item-link {
-    display: flex;
     gap: 5px;
     align-items: center;
     margin-bottom: 27px;
@@ -461,7 +445,6 @@
     background: var(--white);
     border-radius: 15px;
     width: 1080px;
-    display: flex;
     margin-left: 45px;
     margin-bottom: 115px;
     gap: 41px;
@@ -505,11 +488,9 @@
     border-radius: 15px;
     width: 1170px;
     background-color: var(--white);
-    display: flex;
 }
 
 .contacts {
-    display: flex;
     flex-direction: column;
     margin: 45px;
     margin-right: 52px;
@@ -518,13 +499,11 @@
 
 
 /* Адрес */
-.addresses {
-    display: flex;
+.contacts-addresses {
     gap: 83px;
     margin-bottom: 25px;
     padding-bottom: 23px;
-    /* border-bottom: 1px solid var(--grey-border); */
-    border-bottom: 1px solid #e62626;
+    border-bottom: 1px solid var(--grey-border);
 }
 
 .contacts-title {
@@ -543,19 +522,77 @@
 
 
 /* Телефоны */
-.phones {
-    display: flex;
+.contacts-phones {
     gap: 47px;
+    margin-bottom: 25px;
+    padding-bottom: 23px;
+    border-bottom: 1px solid var(--grey-border);
 }
 
 .cell-phones {
-    display: flex;
     flex-direction: column;
 }
 
-.phones-number {
+.personal-contacts {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     color: var(--yellow-phone);
 }
+
+
+/* Email */
+.contacts-email {
+    gap: 93px;
+    margin-bottom: 25px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid var(--grey-border);
+}
+
+.grey-text-email {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--pale-grey);
+}
+
+
+/* График */
+.contacts-schedule {
+    gap: 74px;
+    margin-bottom: 45px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid var(--grey-border);
+}
+
+.schedule-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--black);
+}
+
+
+/* Построить маршрут */
+.contacts-btn {
+    color: var(--yellow-phone);
+    border: 1px solid var(--yellow-phone);
+    border-radius: 10px;
+    padding: 15px 20px;
+    width: 200px;
+    height: 70px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+/* Картинка в Секции КОНТАКТЫ  */
+.contacts-img {
+    border-radius: 10px;
+    width: 653px;
+    margin: 45px;
+}
+
+
+
+/*  */
