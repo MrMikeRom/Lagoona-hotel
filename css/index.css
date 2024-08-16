@@ -595,4 +595,48 @@
 
 
 
-/*  */
+/* FOOTER */
+.basement {
+    border-radius: 15px;
+    width: 1170px;
+    height: 100%;
+    background-image: url(/assets/img/gray-background-footer.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    gap: 125px;
+}
+
+.first-block-footer {
+    flex-direction: column;
+    gap: 37px;
+    padding: 45px;
+    padding-right: 0;
+    width: 390px;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
+    color: var(--white);
+}
+
+.footer-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--yellow-phone);
+}
+
+.second-block-footer {
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.footer-tell-mail {
+    flex-direction: column;
+}
