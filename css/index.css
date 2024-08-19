@@ -110,9 +110,6 @@
 
 .first-card {
     background:linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(/assets/img/maldives-background.png);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
     height: 100%;
 }
 
@@ -138,8 +135,6 @@
 }
 
 .more-about-this-link {
-    font-weight: 400;
-    font-size: 16px;
     color: var(--pale-yellow);
     align-items: center;
     gap: 5px;
@@ -147,9 +142,6 @@
 
 .second-card {
     background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(/assets/img/background-island-crete.png);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
     height: 100%;
 }
 
@@ -160,9 +152,6 @@
     height: 100%;
     background-image: url(/assets/img/luxury-room-background.png);
     border-radius: 15px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
     height: 100%;
 }
 
@@ -182,8 +171,6 @@
 
 /* Секция О НАС */
 .about-us-message {
-    font-weight: 400;
-    font-size: 16px;
     line-height: 200%;
     color: var(--black);
     height: 100%;
@@ -230,8 +217,6 @@
 }
 
 .card-body-text {
-    font-weight: 400;
-    font-size: 16px;
     line-height: 200%;
     color: var(--black);
 }
@@ -285,8 +270,6 @@
 }
 
 .advantages-item-text {
-    font-weight: 400;
-    font-size: 16px;
     line-height: 200%;
     color: var(--black);
     width: 189px;
@@ -367,8 +350,6 @@
 }
 
 .placement-grey-text {
-    font-weight: 400;
-    font-size: 16px;
     color: var(--pale-grey);
 }
 
@@ -382,8 +363,6 @@
 }
 
 .placement-price-black {
-    font-weight: 400;
-    font-size: 16px;
     color: var(--black);
 }
 
@@ -394,8 +373,6 @@
 }
 
 .placement-card-name {
-    font-weight: 400;
-    font-size: 16px;
     color: var(--black);
     margin-bottom: 16px;
 }
@@ -411,9 +388,6 @@
     width: 373px;
     min-height: 440px;
     background-image: url(/assets/img/placement-special-item-background.svg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
     flex-direction: column-reverse;
     align-items: center;
 }
@@ -463,8 +437,6 @@
 }
 
 .form-input-field {
-    font-weight: 400;
-    font-size: 16px;
     color: var(--black);
 }
 
@@ -514,8 +486,6 @@
 }
 
 .addresses-text {
-    font-weight: 400;
-    font-size: 16px;
     line-height: 150%;
     color: var(--black)
 }
@@ -534,8 +504,6 @@
 }
 
 .personal-contacts {
-    font-weight: 400;
-    font-size: 16px;
     line-height: 150%;
     color: var(--yellow-phone);
 }
@@ -550,8 +518,6 @@
 }
 
 .grey-text-email {
-    font-weight: 400;
-    font-size: 16px;
     line-height: 150%;
     color: var(--pale-grey);
 }
@@ -566,8 +532,6 @@
 }
 
 .schedule-text {
-    font-weight: 400;
-    font-size: 16px;
     line-height: 150%;
     color: var(--black);
 }
@@ -581,8 +545,6 @@
     padding: 15px 20px;
     width: 200px;
     height: 70px;
-    font-weight: 400;
-    font-size: 16px;
 }
 
 
@@ -601,9 +563,6 @@
     width: 1170px;
     height: 100%;
     background-image: url(/assets/img/gray-background-footer.svg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
     margin-bottom: 30px;
     gap: 125px;
     position: relative;
@@ -618,15 +577,11 @@
 }
 
 .footer-text {
-    font-weight: 400;
-    font-size: 16px;
     line-height: 190%;
     color: var(--white);
 }
 
 .footer-link {
-    font-weight: 400;
-    font-size: 16px;
     line-height: 150%;
     color: var(--yellow-phone);
 }
@@ -647,9 +602,6 @@
     background-image: url(/assets/img/sun-of-the-lagoon.svg);
     width: 254px;
     height: 228px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
     position: absolute;
     left: 739px;
     bottom: 1px;
