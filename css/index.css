@@ -38,7 +38,12 @@
 .header-bottom {
     justify-content: space-between;
     align-items: center;
-    margin-left: 45px;
+    padding-left: 45px;
+    padding-right: 45px;
+    background-color: var(--white);
+    border-radius: 15px;
+    width: 1170px;
+    height: 70px;
 }
 
 .nav {
@@ -196,14 +201,14 @@
     height: 165px;
 }
 .services-card-body {
-    border-radius: 15px 15px 0 0;
+    border-radius: 0 0 15px 15px;
     width: 573px;
-    height: 100%;
     padding-top: 26px;
     padding-right: 26px;
     padding-bottom: 45px;
     padding-left: 45px;
     background-color: var(--white);
+    /* transform: rotate(180deg); */
 }
 
 .service-link {
@@ -214,11 +219,13 @@
     font-family: 'MullerMedium', sans-serif;
     align-items: center;
     gap: 5px;
+    /* transform: rotate(180deg); */
 }
 
 .card-body-text {
     line-height: 200%;
     color: var(--black);
+    /* transform: rotate(180deg); */
 }
 
 
@@ -261,6 +268,8 @@
     border-radius: 15px;
     width: 276px;
     height: 100%;
+    background-color: var(--white);
+    padding-bottom: 32px;
 }
 
 .advantages-background {
@@ -342,6 +351,8 @@
     border-radius: 15px;
     width: 374px;
     height: 100%;
+    background-color: var(--white);
+    padding-bottom: 45px;
 }
 
 .placement-card-body {
@@ -410,6 +421,14 @@
 
 
 /* Секция  "ХОЧУ ТУР" или "БЛОГ" */
+.want-a-tour {
+    border-radius: 15px;
+    width: 1170px;
+    background-color: var(--grey-border);
+    padding-bottom: 45px;
+    margin-bottom: 70px;
+}
+
 .want-a-tour-title {
     color: var(--black);
     padding-top: 45px;
@@ -420,8 +439,8 @@
     border-radius: 15px;
     width: 1080px;
     margin-left: 45px;
-    margin-bottom: 115px;
     gap: 41px;
+    padding-bottom: 32px;
 }
 
 .form-city {
@@ -441,12 +460,14 @@
 }
 
 .form-input-nights {
-    width: 121px;
 }
 
 .form-btn {
     margin-left: 10px;
     margin-top: 31px;
+    padding: 13px 30px;
+    width: 110px;
+    background-color: var(--white);
 }
 
 
