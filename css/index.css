@@ -83,6 +83,7 @@
 }
 
 
+
 /* Секция СПЕЦПРЕДЛОЖЕНИЯ */
 .special-offers-section {
     margin-bottom: 70px;
@@ -208,7 +209,6 @@
     padding-bottom: 45px;
     padding-left: 45px;
     background-color: var(--white);
-    /* transform: rotate(180deg); */
 }
 
 .service-link {
@@ -219,13 +219,11 @@
     font-family: 'MullerMedium', sans-serif;
     align-items: center;
     gap: 5px;
-    /* transform: rotate(180deg); */
 }
 
 .card-body-text {
     line-height: 200%;
     color: var(--black);
-    /* transform: rotate(180deg); */
 }
 
 
@@ -393,6 +391,7 @@
 }
 
 
+
 /* ДЕВЯТАЯ "особая" карточка размещения */
 .placement-special-item {
     border-radius: 15px;
@@ -501,6 +500,7 @@
 }
 
 
+
 /* Адрес */
 .contacts-addresses {
     gap: 83px;
@@ -522,6 +522,7 @@
 }
 
 
+
 /* Телефоны */
 .contacts-phones {
     gap: 47px;
@@ -540,6 +541,7 @@
 }
 
 
+
 /* Email */
 .contacts-email {
     gap: 93px;
@@ -552,6 +554,7 @@
     line-height: 150%;
     color: var(--pale-grey);
 }
+
 
 
 /* График */
@@ -568,6 +571,7 @@
 }
 
 
+
 /* Построить маршрут */
 .contacts-btn {
     color: var(--yellow-phone);
@@ -577,6 +581,7 @@
     width: 200px;
     height: 70px;
 }
+
 
 
 /* Картинка в Секции КОНТАКТЫ  */
@@ -593,18 +598,19 @@
     border-radius: 15px;
     width: 1170px;
     height: 100%;
-    background-image: url(/assets/img/gray-background-footer.svg);
     margin-bottom: 30px;
     gap: 125px;
     position: relative;
 }
 
 .first-block-footer {
+    position: absolute;
+    top: 1px;
     flex-direction: column;
     gap: 37px;
     padding: 45px;
     padding-right: 0;
-    width: 390px;
+    width: 360px;
 }
 
 .footer-text {
@@ -618,6 +624,9 @@
 }
 
 .second-block-footer {
+    position: absolute;
+    top: 1px;
+    left: 500px;
     flex-direction: column;
     gap: 15px;
     padding-top: 45px;
@@ -628,6 +637,16 @@
     flex-direction: column;
 }
 
+.footer-tel {
+    width: 145px;
+}
+
+.footer-mail {
+    width: 128px;
+}
+
+
+
 /* СОЛНЦЕ */
 .third-block-footer {
     background-image: url(/assets/img/sun-of-the-lagoon.svg);
@@ -635,7 +654,7 @@
     height: 228px;
     position: absolute;
     left: 739px;
-    bottom: 1px;
+    bottom: 5px;
 }
 
 .social-networks {
