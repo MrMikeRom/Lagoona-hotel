@@ -601,10 +601,10 @@
     margin-bottom: 30px;
     gap: 125px;
     position: relative;
+    background-color: var(--grey-header);
 }
 
 .first-block-footer {
-    position: absolute;
     top: 1px;
     flex-direction: column;
     gap: 37px;
@@ -624,7 +624,6 @@
 }
 
 .second-block-footer {
-    position: absolute;
     top: 1px;
     left: 500px;
     flex-direction: column;
@@ -654,7 +653,7 @@
     height: 228px;
     position: absolute;
     left: 739px;
-    bottom: 5px;
+    bottom: 3px;
 }
 
 .social-networks {
