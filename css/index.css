@@ -32,6 +32,10 @@
     color: var(--yellow);
 }
 
+.header-back-link {
+    gap: 7px;
+}
+
 
 
 /* NAV / НАВИГАЦИЯ */
@@ -467,7 +471,7 @@
 }
 
 .nights-tourists {
-    border-bottom: solid 1px #e9e9e9;
+    border-bottom: var(--border);
     width: 121px;
 }
 
@@ -506,7 +510,7 @@
     gap: 83px;
     margin-bottom: 25px;
     padding-bottom: 23px;
-    border-bottom: 1px solid var(--grey-border);
+    border-bottom: var(--border);
 }
 
 .contacts-title {
@@ -528,7 +532,7 @@
     gap: 47px;
     margin-bottom: 25px;
     padding-bottom: 23px;
-    border-bottom: 1px solid var(--grey-border);
+    border-bottom: var(--border);
 }
 
 .cell-phones {
@@ -547,7 +551,7 @@
     gap: 93px;
     margin-bottom: 25px;
     padding-bottom: 22px;
-    border-bottom: 1px solid var(--grey-border);
+    border-bottom: var(--border);
 }
 
 .grey-text-email {
@@ -562,7 +566,7 @@
     gap: 74px;
     margin-bottom: 45px;
     padding-bottom: 22px;
-    border-bottom: 1px solid var(--grey-border);
+    border-bottom: var(--border);
 }
 
 .schedule-text {

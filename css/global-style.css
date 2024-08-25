@@ -24,6 +24,7 @@ body {
 	--grey-header: #333;
 	--yellow-phone: #CC9933;
 	--grey-border: #e9e9e9;
+	--border: solid 1px var(--grey-border);
 }
 
 .container {
@@ -46,19 +47,7 @@ h2 {
     margin-left: 40px;
 }
 
-h3 {
-	margin: 0;
-}
-
-h4 {
-	margin: 0;
-}
-
-h5 {
-	margin: 0;
-}
-
-p {
+h3,h4,h5,p {
 	margin: 0;
 }
 
