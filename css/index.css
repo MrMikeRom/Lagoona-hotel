@@ -36,6 +36,24 @@
     gap: 7px;
 }
 
+/* Стилизация ссылки 'Личный кабинет' при использовании */
+.header-back-link:focus{
+    outline-offset: 3px;
+    outline: 1px solid var(--yellow-phone);
+}
+
+.header-back-link:hover svg path, .header-back-link:hover {
+    fill: var(--pale-yellow);
+    color: var(--pale-yellow);
+}
+
+.header-back-link:active, .header-back-link:active svg path {
+    color: var(--yellow-active);
+    outline: none;
+    fill: var(--yellow-active);
+}
+/* ------------------------------------------ */
+
 
 
 /* NAV / НАВИГАЦИЯ */
@@ -80,7 +98,6 @@
     font-size: 16px;
     color: var(--yellow);
 }
-
 
 .main {
     margin-bottom: 40px;
