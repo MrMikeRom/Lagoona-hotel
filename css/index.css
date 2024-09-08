@@ -121,6 +121,8 @@
     height: 100%;
 }
 
+
+
 .special-offers-wrap{
     gap: 24px;
 }
@@ -138,6 +140,9 @@
 .first-card {
     background:linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(/assets/img/maldives-background.png);
     height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .special-offers {
@@ -167,9 +172,28 @@
     gap: 5px;
 }
 
+
+/* Стилизация ссылок 'Спецпредложения' при использовании */
+.more-about-this-link:hover {
+    color: var(--pale-yellow);
+    align-items: center;
+    gap: 11px;
+}
+
+.more-about-this-link:active {
+    color: var(--white);
+    outline: none;
+    gap: 5px;
+} 
+/* ------------------------------------------ */
+
+
 .second-card {
     background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(/assets/img/background-island-crete.png);
     height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .right-block-item {
