@@ -119,23 +119,21 @@ input, select {
     background-repeat: no-repeat;
 }
 
-
-/* Стилизация ссылок при использовании */
-.reaction-links:focus {
-    outline-offset: 3px;
+/* Стилизация ссылки 'personal-contacts-style' при использовании */
+.personal-contacts-style:focus{
+    outline-offset: 1px;
     outline: 1px solid var(--yellow-phone);
 }
 
-.reaction-links:hover, .reaction-links:focus {
-    color: var(--yellow-phone);
+.personal-contacts-style:hover {
+    color: var(--pale-yellow);
 }
 
-.reaction-links:active {
+.personal-contacts-style:active {
     color: var(--yellow-active);
     outline: none;
 }
 /* ------------------------------------------ */
-
 
 /* Стилизация кнопок при использовании */
 .btn-active:hover, .btn-active:focus {

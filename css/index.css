@@ -26,6 +26,24 @@
     font-family: 'MullerMedium', sans-serif;
 }
 
+
+/* Стилизация 'КОНТАКТНЫЙ ТЕЛЕФОН' при использовании */
+.reaction-links:focus {
+    outline-offset: 3px;
+    outline: 1px solid var(--yellow-phone);
+}
+
+.reaction-links:hover, .reaction-links:focus {
+    color: var(--yellow-phone);
+}
+
+.reaction-links:active {
+    color: var(--yellow-active);
+    outline: none;
+}
+/* ------------------------------------------ */
+
+
 .header-back-to-personal-account {
     font-weight: 400;
     font-size: 16px;
