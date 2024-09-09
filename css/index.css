@@ -55,7 +55,7 @@
 }
 
 /* Стилизация ссылки 'Личный кабинет' при использовании */
-.header-back-link:focus{
+.header-back-link:focus {
     outline-offset: 3px;
     outline: 1px solid var(--yellow-phone);
 }
@@ -140,7 +140,7 @@
 }
 
 
-.special-offers-wrap{
+.special-offers-wrap {
     gap: 24px;
 }
 
@@ -155,7 +155,7 @@
 }
 
 .first-card {
-    background:linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(/assets/img/maldives-background.png);
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(/assets/img/maldives-background.png);
     height: 100%;
     background-size: cover;
     background-position: center center;
@@ -205,7 +205,7 @@
     color: var(--white);
     outline: none;
     gap: 5px;
-} 
+}
 /* ------------------------------------------ */
 
 
@@ -267,6 +267,7 @@
     width: 573px;
     height: 165px;
 }
+
 .services-card-body {
     border-radius: 0 0 15px 15px;
     width: 573px;
@@ -293,9 +294,10 @@
     outline: none;
 }
 
+
 .service-link:hover, .service-link:hover svg path {
     color: var(--pale-yellow);
-    stroke: var(--pale-yellow); 
+    stroke: var(--pale-yellow);
     align-items: center;
     gap: 11px;
 }
@@ -304,7 +306,7 @@
     color: var(--yellow-active);
     outline: none;
     gap: 5px;
-} 
+}
 /* ------------------------------------------ */
 
 
@@ -522,7 +524,7 @@
     opacity: 0;
     left: 50%;
     transform: translateX(-50%);
-} 
+}
 
 .placement-special-item-link:hover:after {
     opacity: 1;
@@ -776,4 +778,27 @@
     position: absolute;
     right: 45px;
     top: 45px;
+    align-items: center;
+    justify-content: center;
 }
+
+.social-networking-style svg {
+    fill: var(--pale-grey);
+}
+
+
+/* Стилизация 'Социальные сети, иконки' при использовании */
+.social-networking-style:focus {
+    outline-offset: 3px;
+    outline: 1px solid var(--yellow-phone);
+}
+
+.social-networking-style:hover svg {
+    fill: var(--yellow-phone);
+}
+
+.social-networking-style:active svg {
+    outline: none;
+    fill: var(--yellow-active);
+}
+/* ------------------------------------------ */

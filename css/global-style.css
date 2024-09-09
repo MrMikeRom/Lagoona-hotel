@@ -136,7 +136,7 @@ input, select {
 /* ------------------------------------------ */
 
 /* Стилизация кнопок при использовании */
-.btn-active:hover, .btn-active:focus {
+.btn-active:focus, .btn-active:hover {
     color: var(--white);
 	background-color: var(--yellow-phone);
 	outline: none;
