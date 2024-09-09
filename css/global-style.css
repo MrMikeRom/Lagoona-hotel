@@ -136,13 +136,13 @@ input, select {
 /* ------------------------------------------ */
 
 /* Стилизация кнопок при использовании */
-.btn-active:focus, .btn-active:hover {
+.styling-interaction-with-button:focus, .styling-interaction-with-button:hover {
     color: var(--white);
 	background-color: var(--yellow-phone);
 	outline: none;
 }
 
-.btn-active:active {
+.styling-interaction-with-button:active {
     background-color: var(--yellow-active);
 	color: var(--white);
     outline: none;
