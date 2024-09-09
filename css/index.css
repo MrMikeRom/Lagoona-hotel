@@ -122,7 +122,6 @@
 }
 
 
-
 .special-offers-wrap{
     gap: 24px;
 }
@@ -174,6 +173,10 @@
 
 
 /* Стилизация ссылок 'Спецпредложения' при использовании */
+.more-about-this-link:focus {
+    outline: none;
+}
+
 .more-about-this-link:hover {
     color: var(--pale-yellow);
     align-items: center;
@@ -260,11 +263,32 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 200%;
-    color: var(--yellow);
+    color: var(--yellow-phone);
     font-family: 'MullerMedium', sans-serif;
     align-items: center;
     gap: 5px;
 }
+
+
+/* Стилизация ссылок 'УСЛУГИ' при использовании */
+.service-link:focus {
+    outline: none;
+}
+
+.service-link:hover, .service-link:hover svg path {
+    color: var(--pale-yellow);
+    stroke: var(--pale-yellow); 
+    align-items: center;
+    gap: 11px;
+}
+
+.service-link:active {
+    color: var(--yellow-active);
+    outline: none;
+    gap: 5px;
+} 
+/* ------------------------------------------ */
+
 
 .card-body-text {
     line-height: 200%;
