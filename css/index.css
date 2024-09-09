@@ -481,10 +481,37 @@
 }
 
 .placement-special-item-link {
+    position: relative;
     gap: 5px;
     align-items: center;
     margin-bottom: 27px;
 }
+
+
+/* Стилизация ссылки 'ДЕВЯТАЯ "особая" карточка размещения' при использовании */
+.placement-special-item-link:focus {
+    outline: none;
+}
+
+.placement-special-item-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--white);
+    opacity: 0;
+    left: 50%;
+    transform: translateX(-50%);
+} 
+
+.placement-special-item-link:hover:after {
+    opacity: 1;
+    transition: .5s;
+    width: 100%;
+}
+/* ------------------------------------------ */
 
 
 
