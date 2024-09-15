@@ -120,7 +120,7 @@ input, select {
 }
 
 /* Стилизация ссылки 'personal-contacts-style' при использовании */
-.personal-contacts-style:focus{
+.personal-contacts-style:focus-visible{
     outline-offset: 1px;
     outline: 1px solid var(--yellow-phone);
 }
@@ -136,7 +136,7 @@ input, select {
 /* ------------------------------------------ */
 
 /* Стилизация кнопок при использовании */
-.styling-interaction-with-button:focus, .styling-interaction-with-button:hover {
+.styling-interaction-with-button:focus-visible, .styling-interaction-with-button:hover {
     color: var(--white);
 	background-color: var(--yellow-phone);
 	outline: none;

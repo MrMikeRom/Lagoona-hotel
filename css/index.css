@@ -19,6 +19,12 @@
     height: 54px;
 }
 
+/* Стилизация 'ЛОГОТИП' при использовании */
+.logo:focus-visible {
+    outline: none;
+}
+/* ------------------------------------------ */
+
 .header-contact-number {
     font-weight: 500;
     font-size: 20px;
@@ -27,7 +33,7 @@
 }
 
 /* Стилизация 'КОНТАКТНЫЙ ТЕЛЕФОН' при использовании */
-.reaction-links:focus {
+.reaction-links:focus-visible {
     outline-offset: 3px;
     outline: 1px solid var(--yellow-phone);
     color: var(--yellow-phone);
@@ -55,7 +61,7 @@
 }
 
 /* Стилизация ссылки 'Личный кабинет' при использовании */
-.header-back-link:focus {
+.header-back-link:focus-visible {
     outline-offset: 3px;
     outline: 1px solid var(--yellow-phone);
 }
@@ -105,12 +111,12 @@
 }
 
 /* Стилизация 'NAV' при использовании */
-.stylization-links:focus {
+.stylization-links:focus-visible {
     outline-offset: 3px;
     outline: 1px solid var(--yellow-phone);
 }
 
-.stylization-links:hover, .stylization-links:focus {
+.stylization-links:hover, .stylization-links:focus-visible {
     color: var(--yellow-phone);
 }
 
@@ -206,14 +212,25 @@
 
 .more-about-this-link {
     color: var(--pale-yellow);
+    position: relative;
     align-items: center;
     gap: 5px;
 }
 
 
 /* Стилизация ссылок 'Спецпредложения' при использовании */
-.more-about-this-link:focus {
+
+.more-about-this-link:focus-visible {
     outline: none;
+}
+
+.more-about-this-link:focus-visible::after {
+    content: "";
+    position: absolute;
+    right: 40%;
+    bottom: 550%;
+    outline-offset: 190px;
+    outline: 1px solid var(--yellow-phone);
 }
 
 .more-about-this-link:hover {
@@ -312,7 +329,7 @@
 
 
 /* Стилизация ссылок 'УСЛУГИ' при использовании */
-.service-link:focus {
+.service-link:focus-visible {
     outline: none;
 }
 
@@ -535,7 +552,7 @@
 
 
 /* Стилизация ссылки 'ДЕВЯТАЯ "особая" карточка размещения' при использовании */
-.placement-special-item-link:focus {
+.placement-special-item-link:focus-visible {
     outline: none;
 }
 
@@ -551,6 +568,13 @@
     left: 50%;
     top: 85%;
     transform: translateX(-50%);
+}
+
+.placement-special-item-link:focus-visible::after {
+    content: "";
+    opacity: 1;
+    transition: .2s;
+    width: 100%;
 }
 
 .placement-special-item-link:hover::after {
@@ -601,6 +625,13 @@
 .form-input-field {
     color: var(--black);
 }
+
+/* Стилизация 'ХОЧУ ТУР' при использовании */
+.form-input-field:focus-visible {
+    outline-offset: 3px;
+    outline: 1px solid var(--yellow-phone);
+}
+/* ------------------------------------------ */
 
 .city-select {
     width: 169px;
@@ -816,7 +847,7 @@
 
 
 /* Стилизация 'Социальные сети, иконки' при использовании */
-.social-networking-style:focus {
+.social-networking-style:focus-visible {
     outline-offset: 3px;
     outline: 1px solid var(--yellow-phone);
 }
