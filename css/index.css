@@ -26,23 +26,23 @@
     font-family: 'MullerMedium', sans-serif;
 }
 
-
 /* Стилизация 'КОНТАКТНЫЙ ТЕЛЕФОН' при использовании */
-.stylization-links:focus {
+.reaction-links:focus {
     outline-offset: 3px;
     outline: 1px solid var(--yellow-phone);
-}
-
-.stylization-links:hover, .stylization-links:focus {
     color: var(--yellow-phone);
 }
 
-.stylization-links:active {
+.reaction-links:hover {
+    color: var(--yellow-phone);
+    transition: .3s;
+}
+
+.reaction-links:active {
     color: var(--yellow-active);
     outline: none;
 }
 /* ------------------------------------------ */
-
 
 .header-back-to-personal-account {
     font-weight: 400;
@@ -63,6 +63,7 @@
 .header-back-link:hover svg path, .header-back-link:hover {
     fill: var(--pale-yellow);
     color: var(--pale-yellow);
+    transition: .3s;
 }
 
 .header-back-link:active, .header-back-link:active svg path {
@@ -102,6 +103,26 @@
     font-size: 16px;
     color: var(--grey);
 }
+
+/* Стилизация 'NAV' при использовании */
+.stylization-links:focus {
+    outline-offset: 3px;
+    outline: 1px solid var(--yellow-phone);
+}
+
+.stylization-links:hover, .stylization-links:focus {
+    color: var(--yellow-phone);
+}
+
+.stylization-links:hover {
+    transition: .3s;
+}
+
+.stylization-links:active {
+    color: var(--yellow-active);
+    outline: none;
+}
+/* ------------------------------------------ */
 
 .button-wrap {
     gap: 40px;
@@ -199,6 +220,7 @@
     color: var(--pale-yellow);
     align-items: center;
     gap: 11px;
+    transition: .3s;
 }
 
 .more-about-this-link:active {
@@ -300,6 +322,10 @@
     stroke: var(--pale-yellow);
     align-items: center;
     gap: 11px;
+}
+
+.service-link:hover {
+    transition: .3s;
 }
 
 .service-link:active {

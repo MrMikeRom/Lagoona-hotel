@@ -142,6 +142,10 @@ input, select {
 	outline: none;
 }
 
+.styling-interaction-with-button:hover {
+	transition: .5s;
+}
+
 .styling-interaction-with-button:active {
     background-color: var(--yellow-active);
 	color: var(--white);
