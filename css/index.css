@@ -111,20 +111,20 @@
 }
 
 /* Стилизация 'NAV' при использовании */
-.stylization-links:focus-visible {
+.animation-effect-links-nav:focus-visible {
     outline-offset: 3px;
     outline: 1px solid var(--yellow-phone);
 }
 
-.stylization-links:hover, .stylization-links:focus-visible {
+.animation-effect-links-nav:hover, .animation-effect-links-nav:focus-visible {
     color: var(--yellow-phone);
 }
 
-.stylization-links:hover {
+.animation-effect-links-nav:hover {
     transition: .3s;
 }
 
-.stylization-links:active {
+.animation-effect-links-nav:active {
     color: var(--yellow-active);
     outline: none;
 }
