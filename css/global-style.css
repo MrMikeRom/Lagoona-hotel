@@ -121,7 +121,7 @@ input, select {
 
 /* Стилизация ссылки 'personal-contacts-animation' при использовании */
 .personal-contacts-animation:focus-visible{
-    outline-offset: 1px;
+    outline-offset: 3px;
     outline: 1px solid var(--yellow-phone);
 }
 
