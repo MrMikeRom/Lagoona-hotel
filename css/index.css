@@ -210,7 +210,7 @@
     margin-bottom: 47px;
 }
 
-.more-about-this-link {
+.more-about-link {
     color: var(--pale-yellow);
     position: relative;
     align-items: center;
@@ -220,11 +220,11 @@
 
 /* Стилизация ссылок 'Спецпредложения' при использовании */
 
-.more-about-this-link:focus-visible {
+.more-about-link:focus-visible {
     outline: none;
 }
 
-.more-about-this-link:focus-visible::after {
+.more-about-link:focus-visible::after {
     content: "";
     position: absolute;
     right: 40%;
@@ -233,14 +233,14 @@
     outline: 1px solid var(--yellow-phone);
 }
 
-.more-about-this-link:hover {
+.more-about-link:hover {
     color: var(--pale-yellow);
     align-items: center;
     gap: 11px;
     transition: .3s;
 }
 
-.more-about-this-link:active {
+.more-about-link:active {
     color: var(--white);
     outline: none;
     gap: 5px;
