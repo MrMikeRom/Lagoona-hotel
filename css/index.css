@@ -177,6 +177,10 @@
     gap: 24px;
 }
 
+.focus-special-card {
+    position: relative;
+}
+
 .left-block-item {
     width: 573px;
     border-radius: 15px;
@@ -213,7 +217,6 @@
 
 .more-about-link {
     color: var(--pale-yellow);
-    position: relative;
     align-items: center;
     gap: 5px;
 }
@@ -225,14 +228,25 @@
     outline: none;
 }
 
-.more-about-link:focus-visible::after {
+/* Фокус рамка карточек */
+.more-about-link::before {
     content: "";
+    display: block;
     position: absolute;
-    right: 40%;
-    bottom: 550%;
-    outline-offset: 190px;
-    outline: 1px solid var(--yellow-phone);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    outline: 2px solid transparent;
+    outline-offset: 8px;
 }
+
+.more-about-link:focus-visible::before {
+    content: "";
+    outline: 2px solid var(--yellow-phone);
+    outline-offset: 8px;
+}
+/* ------------------------------------------ */
 
 .more-about-link:hover {
     color: var(--pale-yellow);
