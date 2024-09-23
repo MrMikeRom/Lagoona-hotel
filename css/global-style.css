@@ -119,17 +119,17 @@ input, select {
     background-repeat: no-repeat;
 }
 
-/* Стилизация ссылки 'personal-contacts-style' при использовании */
-.personal-contacts-style:focus-visible{
+/* Стилизация ссылки 'personal-contacts-animation' при использовании */
+.personal-contacts-animation:focus-visible{
     outline-offset: 1px;
     outline: 1px solid var(--yellow-phone);
 }
 
-.personal-contacts-style:hover {
+.personal-contacts-animation:hover {
     color: var(--pale-yellow);
 }
 
-.personal-contacts-style:active {
+.personal-contacts-animation:active {
     color: var(--yellow-active);
     outline: none;
 }
