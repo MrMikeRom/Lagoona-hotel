@@ -136,17 +136,17 @@ input, select {
 /* ------------------------------------------ */
 
 /* Стилизация кнопок при использовании */
-.styling-interaction-with-button:focus-visible, .styling-interaction-with-button:hover {
+.interaction-with-button:focus-visible, .interaction-with-button:hover {
     color: var(--white);
 	background-color: var(--yellow-phone);
 	outline: none;
 }
 
-.styling-interaction-with-button:hover {
+.interaction-with-button:hover {
 	transition: .5s;
 }
 
-.styling-interaction-with-button:active {
+.interaction-with-button:active {
     background-color: var(--yellow-active);
 	color: var(--white);
     outline: none;
