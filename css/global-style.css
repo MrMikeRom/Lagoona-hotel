@@ -142,7 +142,7 @@ input, select {
 	outline: none;
 }
 
-.interaction-with-button:hover {
+.interaction-with-button {
 	transition: .5s;
 }
 
