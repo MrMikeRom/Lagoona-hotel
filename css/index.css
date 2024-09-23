@@ -58,6 +58,7 @@
 
 .header-back-link {
     gap: 7px;
+    align-items: center;
 }
 
 /* Стилизация ссылки 'Личный кабинет' при использовании */
