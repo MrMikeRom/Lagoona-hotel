@@ -316,6 +316,10 @@
     margin-bottom: 70px;
 }
 
+.focus-services-card {
+    position: relative;
+}
+
 .services-card-prew {
     border-radius: 15px 15px 0 0;
     width: 573px;
@@ -348,6 +352,25 @@
     outline: none;
 }
 
+/* Фокус рамка карточек */
+.service-link::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    outline: 2px solid transparent;
+    outline-offset: 8px;
+}
+
+.service-link:focus-visible::before {
+    content: "";
+    outline: 2px solid var(--yellow-phone);
+    outline-offset: 8px;
+}
+/* ------------------------------------------ */
 
 .service-link:hover, .service-link:hover svg path {
     color: var(--pale-yellow);
