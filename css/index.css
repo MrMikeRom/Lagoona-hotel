@@ -897,6 +897,7 @@
 
 .social-networking-style svg {
     fill: var(--pale-grey);
+    transition: fill 0.3s ease-in-out;
 }
 
 

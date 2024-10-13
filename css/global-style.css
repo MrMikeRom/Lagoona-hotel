@@ -119,6 +119,10 @@ input, select {
     background-repeat: no-repeat;
 }
 
+.personal-contacts-animation {
+    transition: color 0.3s ease-in-out;
+}
+
 /* Стилизация ссылки 'personal-contacts-animation' при использовании */
 .personal-contacts-animation:focus-visible{
     outline-offset: 3px;
@@ -134,6 +138,7 @@ input, select {
     outline: none;
 }
 /* ------------------------------------------ */
+
 
 /* Стилизация кнопок при использовании */
 .interaction-with-button:focus-visible, .interaction-with-button:hover {
