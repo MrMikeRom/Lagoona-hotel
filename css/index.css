@@ -381,6 +381,7 @@
 }
 /* ------------------------------------------ */
 
+
 .service-link:hover, .service-link:hover svg path {
     color: var(--pale-yellow);
     stroke: var(--pale-yellow);
@@ -573,6 +574,7 @@
 
 /* ДЕВЯТАЯ "особая" карточка размещения */
 .placement-special-item {
+    position: relative;
     border-radius: 15px;
     width: 373px;
     min-height: 440px;
@@ -591,10 +593,19 @@
 }
 
 .placement-special-item-link {
-    position: relative;
     gap: 5px;
     align-items: center;
     margin-bottom: 27px;
+}
+
+.placement-special-item-link::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
 }
 
 
@@ -606,14 +617,13 @@
 .placement-special-item-link::after {
     content: "";
     position: absolute;
-    left: 0;
     bottom: 0;
     width: 0;
     height: 1px;
     background-color: var(--white);
     opacity: 0;
     left: 50%;
-    top: 85%;
+    top: 93%;
     transform: translateX(-50%);
 }
 
@@ -628,7 +638,7 @@
     content: "";
     opacity: 1;
     transition: .5s;
-    width: 100%;
+    width: 70%;
 }
 
 .placement-special-item-link::after {
