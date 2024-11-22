@@ -89,7 +89,7 @@
 
 
 /* NAV / НАВИГАЦИЯ */
-.header-bottom {
+.header_bottom {
     justify-content: space-between;
     align-items: center;
     padding-left: 45px;
@@ -104,40 +104,40 @@
     flex-direction: row;
 }
 
-.nav-list {
+.nav_list {
     margin: 0;
     padding: 0;
     list-style: none;
     gap: 45px;
 }
 
-.nav-item {
+.nav_item {
     font-weight: 400;
     font-size: 16px;
     color: var(--grey);
 }
 
 /* Стилизация 'NAV' при использовании */
-.animation-effect-links-nav:focus-visible {
+.nav_item-link:focus-visible {
     outline-offset: 3px;
     outline: 1px solid var(--yellow-phone);
 }
 
-.animation-effect-links-nav:hover, .animation-effect-links-nav:focus-visible {
+.nav_item-link:hover, .nav_item-link:focus-visible {
     color: var(--yellow-phone);
 }
 
-.animation-effect-links-nav {
+.nav_item-link {
     transition: .3s;
 }
 
-.animation-effect-links-nav:active {
+.nav_item-link:active {
     color: var(--yellow-active);
     outline: none;
 }
 /* ------------------------------------------ */
 
-.button-wrap {
+.button_wrap {
     gap: 40px;
 }
 
