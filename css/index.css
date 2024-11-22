@@ -158,12 +158,12 @@
 
 
 /* Секция СПЕЦПРЕДЛОЖЕНИЯ */
-.special-offers-section {
+.specialOffers {
     margin-bottom: 70px;
 }
 
 /* h1 */
-.special-offers-title {
+.specialOffers_title {
     margin-bottom: 20px;
     margin-left: 40px;
     margin-top: 0;
@@ -174,25 +174,25 @@
 }
 
 
-.special-offers-wrap {
+.specialOffers_wrap {
     gap: 24px;
 }
 
-.left-block {
+.leftBlock {
     flex-direction: column;
     gap: 24px;
 }
 
-.focus-special-card {
+.leftBlock_focus {
     position: relative;
 }
 
-.left-block-item {
+.leftBlock_item {
     width: 573px;
     border-radius: 15px;
 }
 
-.first-card {
+.firstCard {
     background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(/assets/img/maldives-background.png);
     height: 100%;
     background-size: cover;
@@ -200,12 +200,12 @@
     background-repeat: no-repeat;
 }
 
-.special-offers {
+.leftBlock_offers {
     flex-direction: column;
     margin: 40px 108px 40px 45px;
 }
 
-.special-item-title {
+.leftBlock_title {
     font-weight: 700;
     font-size: 40px;
     color: var(--white);
@@ -213,7 +213,7 @@
     font-family: 'MullerBold', sans-serif;
 }
 
-.special-item-price {
+.leftBlock_price {
     font-weight: 400;
     font-size: 20px;
     color: var(--white);
@@ -221,7 +221,7 @@
     margin-bottom: 47px;
 }
 
-.more-about-link {
+.specialOffers_link {
     color: var(--pale-yellow);
     align-items: center;
     gap: 5px;
@@ -230,12 +230,12 @@
 
 /* Стилизация ссылок 'Спецпредложения' при использовании */
 
-.more-about-link:focus-visible {
+.specialOffers_link:focus-visible {
     outline: none;
 }
 
 /* Фокус рамка карточек */
-.more-about-link::before {
+.specialOffers_link::before {
     content: "";
     display: block;
     position: absolute;
@@ -247,24 +247,24 @@
     outline-offset: 8px;
 }
 
-.more-about-link:focus-visible::before {
+.specialOffers_link:focus-visible::before {
     content: "";
     outline: 2px solid var(--yellow-phone);
     outline-offset: 8px;
 }
 /* ------------------------------------------ */
 
-.more-about-link:hover {
+.specialOffers_link:hover {
     color: var(--pale-yellow);
     align-items: center;
     gap: 11px;
 }
 
-.more-about-link {
+.specialOffers_link {
     transition: .3s;
 }
 
-.more-about-link:active {
+.specialOffers_link:active {
     color: var(--white);
     outline: none;
     gap: 5px;
@@ -280,7 +280,7 @@
     background-repeat: no-repeat;
 }
 
-.right-block-item {
+.rightBlock_item {
     flex-direction: column;
     justify-content: flex-end;
     width: 573px;
@@ -290,18 +290,30 @@
     height: 100%;
 }
 
-.right-special-offers {
+.rightBlock_offers {
     flex-direction: column;
     justify-content: flex-end;
     margin-left: 45px;
     margin-bottom: 40px;
 }
 
-.right-special-item-title {
+.rightBlock_title {
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--white);
+    margin-bottom: 15px;
+    font-family: 'MullerBold', sans-serif;
     font-size: 60px;
     margin-right: 229px;
 }
 
+.rightBlock_price {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--white);
+    opacity: 0.8;
+    margin-bottom: 47px;
+}
 
 
 /* Секция О НАС */
