@@ -53,33 +53,33 @@
 }
 /* ------------------------------------------ */
 
-.header_goBack {
+.header_go-back {
     font-weight: 400;
     font-size: 16px;
     color: var(--yellow);
 }
 
-.header_goBack-link {
+.header_go-back-link {
     gap: 7px;
     align-items: center;
 }
 
 /* Стилизация ссылки 'Личный кабинет' при использовании */
-.header_goBack-link:focus-visible {
+.header_go-back-link:focus-visible {
     outline-offset: 3px;
     outline: 1px solid var(--yellow-phone);
 }
 
-.header_goBack-link:hover svg path, .header_goBack-link:hover {
+.header_go-back-link:hover svg path, .header_go-back-link:hover {
     fill: var(--pale-yellow);
     color: var(--pale-yellow);
 }
 
-.header_goBack-link svg path, .header_goBack-link {
+.header_go-back-link svg path, .header_go-back-link {
     transition: .3s;
 }
 
-.header_goBack-link:active, .header_goBack-link:active svg path {
+.header_go-back-link:active, .header_go-back-link:active svg path {
     color: var(--yellow-active);
     outline: none;
     fill: var(--yellow-active);
@@ -158,12 +158,12 @@
 
 
 /* Секция СПЕЦПРЕДЛОЖЕНИЯ */
-.specialOffers {
+.special-offers {
     margin-bottom: 70px;
 }
 
 /* h1 */
-.specialOffers_title {
+.special-offers_title {
     margin-bottom: 20px;
     margin-left: 40px;
     margin-top: 0;
@@ -174,25 +174,25 @@
 }
 
 
-.specialOffers_wrap {
+.special-offers_wrap {
     gap: 24px;
 }
 
-.leftBlock {
+.left-block {
     flex-direction: column;
     gap: 24px;
 }
 
-.leftBlock_focus {
+.left-block_focus {
     position: relative;
 }
 
-.leftBlock_item {
+.left-block_item {
     width: 573px;
     border-radius: 15px;
 }
 
-.firstCard {
+.first-card {
     background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(/assets/img/maldives-background.png);
     height: 100%;
     background-size: cover;
@@ -200,12 +200,12 @@
     background-repeat: no-repeat;
 }
 
-.leftBlock_offers {
+.left-block_offers {
     flex-direction: column;
     margin: 40px 108px 40px 45px;
 }
 
-.leftBlock_title {
+.left-block_title {
     font-weight: 700;
     font-size: 40px;
     color: var(--white);
@@ -213,7 +213,7 @@
     font-family: 'MullerBold', sans-serif;
 }
 
-.leftBlock_price {
+.left-block_price {
     font-weight: 400;
     font-size: 20px;
     color: var(--white);
@@ -221,7 +221,7 @@
     margin-bottom: 47px;
 }
 
-.specialOffers_link {
+.special-offers_link {
     color: var(--pale-yellow);
     align-items: center;
     gap: 5px;
@@ -230,12 +230,12 @@
 
 /* Стилизация ссылок 'Спецпредложения' при использовании */
 
-.specialOffers_link:focus-visible {
+.special-offers_link:focus-visible {
     outline: none;
 }
 
 /* Фокус рамка карточек */
-.specialOffers_link::before {
+.special-offers_link::before {
     content: "";
     display: block;
     position: absolute;
@@ -247,24 +247,24 @@
     outline-offset: 8px;
 }
 
-.specialOffers_link:focus-visible::before {
+.special-offers_link:focus-visible::before {
     content: "";
     outline: 2px solid var(--yellow-phone);
     outline-offset: 8px;
 }
 /* ------------------------------------------ */
 
-.specialOffers_link:hover {
+.special-offers_link:hover {
     color: var(--pale-yellow);
     align-items: center;
     gap: 11px;
 }
 
-.specialOffers_link {
+.special-offers_link {
     transition: .3s;
 }
 
-.specialOffers_link:active {
+.special-offers_link:active {
     color: var(--white);
     outline: none;
     gap: 5px;
@@ -280,7 +280,7 @@
     background-repeat: no-repeat;
 }
 
-.rightBlock_item {
+.right-block_item {
     flex-direction: column;
     justify-content: flex-end;
     width: 573px;
@@ -290,14 +290,14 @@
     height: 100%;
 }
 
-.rightBlock_offers {
+.right-block_offers {
     flex-direction: column;
     justify-content: flex-end;
     margin-left: 45px;
     margin-bottom: 40px;
 }
 
-.rightBlock_title {
+.right-block_title {
     font-weight: 700;
     font-size: 40px;
     color: var(--white);
@@ -307,7 +307,7 @@
     margin-right: 229px;
 }
 
-.rightBlock_price {
+.right-block_price {
     font-weight: 400;
     font-size: 20px;
     color: var(--white);

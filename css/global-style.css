@@ -108,12 +108,12 @@ input, select {
 	display: flex;
 }
 
-.textCust {
+.text-cust {
     font-weight: 400;
     font-size: 16px;
 }
 
-.backCust {
+.back-cust {
 	background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
