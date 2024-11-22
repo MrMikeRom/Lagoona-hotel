@@ -3,29 +3,29 @@
     margin-bottom: 70px;
 }
 
-.header-top {
+.header_top {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 30px;
 }
 
-.logo-phone-box {
+.header_contacts {
     align-items: center;
     gap: 40px;
 }
 
-.header-logo {
+.header_logo {
     width: 261px;
     height: 54px;
 }
 
 /* Стилизация 'ЛОГОТИП' при использовании */
-.logo:focus-visible {
+.header_logo-link:focus-visible {
     outline: none;
 }
 /* ------------------------------------------ */
 
-.header-contact-number {
+.header_tell {
     font-weight: 500;
     font-size: 20px;
     color: var(--grey);
@@ -33,53 +33,53 @@
 }
 
 /* Стилизация 'КОНТАКТНЫЙ ТЕЛЕФОН' при использовании */
-.reaction-links:focus-visible {
+.header_tell-link:focus-visible {
     outline-offset: 3px;
     outline: 1px solid var(--yellow-phone);
     color: var(--yellow-phone);
 }
 
-.reaction-links:hover {
+.header_tell-link:hover {
     color: var(--yellow-phone);
 }
 
-.reaction-links {
+.header_tell-link {
     transition: .3s;
 }
 
-.reaction-links:active {
+.header_tell-link:active {
     color: var(--yellow-active);
     outline: none;
 }
 /* ------------------------------------------ */
 
-.header-back-to-personal-account {
+.header_goBack {
     font-weight: 400;
     font-size: 16px;
     color: var(--yellow);
 }
 
-.header-back-link {
+.header_goBack-link {
     gap: 7px;
     align-items: center;
 }
 
 /* Стилизация ссылки 'Личный кабинет' при использовании */
-.header-back-link:focus-visible {
+.header_goBack-link:focus-visible {
     outline-offset: 3px;
     outline: 1px solid var(--yellow-phone);
 }
 
-.header-back-link:hover svg path, .header-back-link:hover {
+.header_goBack-link:hover svg path, .header_goBack-link:hover {
     fill: var(--pale-yellow);
     color: var(--pale-yellow);
 }
 
-.header-back-link svg path, .header-back-link {
+.header_goBack-link svg path, .header_goBack-link {
     transition: .3s;
 }
 
-.header-back-link:active, .header-back-link:active svg path {
+.header_goBack-link:active, .header_goBack-link:active svg path {
     color: var(--yellow-active);
     outline: none;
     fill: var(--yellow-active);
