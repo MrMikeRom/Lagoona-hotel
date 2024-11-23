@@ -98,7 +98,7 @@ input, select {
 	font-style: normal;
 }
 
-.btn_reset {
+.btn__reset {
 	padding: 0;
 	border: none;
 	background: none;
@@ -141,17 +141,17 @@ input, select {
 
 
 /* Стилизация кнопок при использовании */
-.button_interaction:focus-visible, .button_interaction:hover {
+.button__interaction:focus-visible, .button__interaction:hover {
     color: var(--white);
 	background-color: var(--yellow-phone);
 	outline: none;
 }
 
-.button_interaction {
+.button__interaction {
 	transition: .5s;
 }
 
-.button_interaction:active {
+.button__interaction:active {
     background-color: var(--yellow-active);
 	color: var(--white);
     outline: none;
