@@ -317,7 +317,7 @@
 
 
 /* Секция О НАС */
-.about-us-message {
+.about-us__text {
     line-height: 200%;
     color: var(--black);
     height: 100%;
