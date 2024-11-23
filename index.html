@@ -911,16 +911,15 @@
             <!-- Секция  "ХОЧУ ТУР" или "БЛОГ" -->
             <section id="want-a-tour" class="want-a-tour">
 
-                <h2 class="want-a-tour-title">Хочу тур</h2>
+                <h2 class="want-a-tour__title">Хочу тур</h2>
 
-                <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="want-a-tour-form flex">
+                <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="want-a-tour__form form flex">
 
+                    <div class="form__city">
 
-                    <div class="form-city">
+                        <h5 class="form__title">Город вылета</h5>
 
-                        <h5 class="form-title">Город вылета</h5>
-
-                        <select name="city" class="form-input-field text-cust city-select">
+                        <select name="city" class="form__input-field text-cust form__city-select">
                             <option value="Санкт-Петербург"> Санкт-Петербург
                             <option value="Москва"> Москва
                             <option value="Сочи"> Сочи
@@ -930,11 +929,11 @@
                     </div>
 
 
-                    <div class="form-country">
+                    <div>
 
-                        <h5 class="form-title">Страна</h5>
+                        <h5 class="form__title">Страна</h5>
 
-                        <select name="city" class="form-input-field text-cust country-select">
+                        <select name="city" class="form__input-field text-cust form__country-select">
                             <option value="Россия"> Россия
                             <option value="Омэрика"> Омэрика
                             <option value="Китай"> Китай
@@ -944,35 +943,34 @@
                     </div>
 
 
-                    <div class="form-date">
+                    <div>
 
-                        <h5 class="form-title">Дата прибытия</h5>
+                        <h5 class="form__title">Дата прибытия</h5>
 
-                        <input type="date" required class="form-input-field text-cust">
-
-                    </div>
-
-
-                    <div class="form-nights">
-
-                        <h5 class="form-title">Ночей</h5>
-
-                        <input type="number" required min="1" class="form-input-field text-cust nights-tourists">
+                        <input type="date" required class="form__input-field text-cust">
 
                     </div>
 
 
-                    <div class="form-tourists">
+                    <div>
 
-                        <h5 class="form-title">Туристы</h5>
+                        <h5 class="form__title">Ночей</h5>
 
-                        <input type="number" required min="1" class="form-input-field text-cust nights-tourists">
+                        <input type="number" required min="1" class="form__input-field text-cust form__nights-tourists">
 
                     </div>
 
 
-                    <button type="submit" class="btn form-btn button__interaction">Найти</button>
+                    <div>
 
+                        <h5 class="form__title">Туристы</h5>
+
+                        <input type="number" required min="1" class="form__input-field text-cust form__nights-tourists">
+
+                    </div>
+
+
+                    <button type="submit" class="btn form__btn button__interaction">Найти</button>
 
                 </form>
 

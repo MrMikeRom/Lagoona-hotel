@@ -643,7 +643,7 @@
     content: "";
     opacity: 1;
     transition: .2s;
-    width: 100%;
+    width: 70%;
 }
 
 .placement__special-link:hover::after {
@@ -672,12 +672,12 @@
     margin-bottom: 70px;
 }
 
-.want-a-tour-title {
+.want-a-tour__title {
     color: var(--black);
     padding-top: 45px;
 }
 
-.want-a-tour-form {
+.want-a-tour__form {
     background: var(--white);
     border-radius: 15px;
     width: 1080px;
@@ -686,11 +686,11 @@
     padding-bottom: 32px;
 }
 
-.form-city {
+.form__city {
     margin-left: 28px;
 }
 
-.form-title {
+.form__title {
     font-weight: 400;
     font-size: 12px;
     color: var(--black);
@@ -698,31 +698,31 @@
     margin-top: 31px;
 }
 
-.form-input-field {
+.form__input-field {
     color: var(--black);
 }
 
 /* Стилизация 'ХОЧУ ТУР' при использовании */
-.form-input-field:focus-visible {
+.form__input-field:focus-visible {
     outline-offset: 3px;
     outline: 1px solid var(--yellow-phone);
 }
 /* ------------------------------------------ */
 
-.city-select {
+.form__city-select {
     width: 169px;
 }
 
-.country-select {
+.form__country-select {
     width: 139px;
 }
 
-.nights-tourists {
+.form__nights-tourists {
     border-bottom: var(--border);
     width: 121px;
 }
 
-.form-btn {
+.form__btn {
     margin-left: 10px;
     margin-top: 31px;
     padding: 13px 30px;
