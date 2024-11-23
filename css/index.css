@@ -337,7 +337,7 @@
     margin-bottom: 70px;
 }
 
-.services__card {
+.services__item {
     position: relative;
 }
 
@@ -527,7 +527,7 @@
 
 
 /* Секция РАЗМЕЩЕНИЕ */
-.placement-list {
+.placement__list {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -537,7 +537,7 @@
     gap: 24px;
 }
 
-.placement-item {
+.placement__item {
     border-radius: 15px;
     width: 374px;
     height: 100%;
@@ -545,16 +545,16 @@
     padding-bottom: 45px;
 }
 
-.placement-card-body {
+.placement__body {
     margin-top: 32px;
     margin-left: 45px;
 }
 
-.placement-grey-text {
+.placement__text {
     color: var(--pale-grey);
 }
 
-.placement-black-price {
+.placement__price {
     font-family: 'MullerBold', sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -563,29 +563,29 @@
     margin-left: 4px;
 }
 
-.placement-price-black {
+.placement__day {
     color: var(--black);
 }
 
-.placement-card-pr-ra {
+.placement__card {
     flex-direction: row;
     gap: 52px;
     margin-bottom: 16px;
 }
 
-.placement-card-name {
+.placement__card-name {
     color: var(--black);
     margin-bottom: 16px;
 }
 
-.placement-card-address {
+.placement__address {
     margin-bottom: 20px;
 }
 
 
 
 /* ДЕВЯТАЯ "особая" карточка размещения */
-.placement-special-item {
+.placement__special-item {
     position: relative;
     border-radius: 15px;
     width: 373px;
@@ -595,7 +595,7 @@
     align-items: center;
 }
 
-.placement-special-item-container {
+.placement__special-container {
     width: 265px;
     font-weight: 500;
     font-size: 20px;
@@ -604,13 +604,13 @@
     font-family: 'MullerMedium', sans-serif;
 }
 
-.placement-special-item-link {
+.placement__special-link {
     gap: 5px;
     align-items: center;
     margin-bottom: 27px;
 }
 
-.placement-special-item-link::before {
+.placement__special-link::before {
     content: "";
     position: absolute;
     top: 0;
@@ -622,11 +622,11 @@
 
 
 /* Стилизация ссылки 'ДЕВЯТАЯ "особая" карточка размещения' при использовании */
-.placement-special-item-link:focus-visible {
+.placement__special-link:focus-visible {
     outline: none;
 }
 
-.placement-special-item-link::after {
+.placement__special-link::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -639,21 +639,21 @@
     transform: translateX(-50%);
 }
 
-.placement-special-item-link:focus-visible::after {
+.placement__special-link:focus-visible::after {
     content: "";
     opacity: 1;
     transition: .2s;
     width: 100%;
 }
 
-.placement-special-item-link:hover::after {
+.placement__special-link:hover::after {
     content: "";
     opacity: 1;
     transition: .5s;
     width: 70%;
 }
 
-.placement-special-item-link::after {
+.placement__special-link::after {
     content: "";
     opacity: 1;
     transition: .5s;
