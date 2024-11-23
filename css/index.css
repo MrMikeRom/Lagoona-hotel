@@ -328,7 +328,7 @@
 
 
 /* Секция УСЛУГИ */
-.services-list {
+.services__list {
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
@@ -337,17 +337,17 @@
     margin-bottom: 70px;
 }
 
-.focus-services-card {
+.services__card {
     position: relative;
 }
 
-.services-card-prew {
+.services__prew {
     border-radius: 15px 15px 0 0;
     width: 573px;
     height: 165px;
 }
 
-.services-card-body {
+.services__body {
     border-radius: 0 0 15px 15px;
     width: 573px;
     padding-top: 26px;
@@ -357,7 +357,7 @@
     background-color: var(--white);
 }
 
-.service-link {
+.service__link {
     font-weight: 500;
     font-size: 20px;
     line-height: 200%;
@@ -369,12 +369,12 @@
 
 
 /* Стилизация ссылок 'УСЛУГИ' при использовании */
-.service-link:focus-visible {
+.service__link:focus-visible {
     outline: none;
 }
 
 /* Фокус рамка карточек */
-.service-link::before {
+.service__link::before {
     content: "";
     display: block;
     position: absolute;
@@ -386,7 +386,7 @@
     outline-offset: 8px;
 }
 
-.service-link:focus-visible::before {
+.service__link:focus-visible::before {
     content: "";
     outline: 2px solid var(--yellow-phone);
     outline-offset: 8px;
@@ -394,18 +394,18 @@
 /* ------------------------------------------ */
 
 
-.service-link:hover, .service-link:hover svg path {
+.service__link:hover, .service__link:hover svg path {
     color: var(--pale-yellow);
     stroke: var(--pale-yellow);
     align-items: center;
     gap: 11px;
 }
 
-.service-link {
+.service__link {
     transition: .3s;
 }
 
-.service-link:active {
+.service__link:active {
     color: var(--yellow-active);
     outline: none;
     gap: 5px;
@@ -413,7 +413,7 @@
 /* ------------------------------------------ */
 
 
-.card-body-text {
+.services__text {
     line-height: 200%;
     color: var(--black);
 }
