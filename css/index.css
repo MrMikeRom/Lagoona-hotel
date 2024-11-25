@@ -733,11 +733,11 @@
 
 
 /* Секция  КОНТАКТЫ */
-.contacts-main-title {
+.contacts__main-title {
     color: var(--black);
 }
 
-.contacts-container {
+.contacts__container {
     border-radius: 15px;
     width: 1170px;
     background-color: var(--white);
@@ -753,21 +753,21 @@
 
 
 /* Адрес */
-.contacts-addresses {
+.contacts__addresses {
     gap: 83px;
     margin-bottom: 25px;
     padding-bottom: 23px;
     border-bottom: var(--border);
 }
 
-.contacts-title {
+.contacts__title {
     font-family: 'MullerBold', sans-serif;
     font-weight: 700;
     font-size: 20px;
     color: var(--black);
 }
 
-.addresses-text {
+.contacts__addresse-text {
     line-height: 150%;
     color: var(--black)
 }
@@ -775,18 +775,18 @@
 
 
 /* Телефоны */
-.contacts-phones {
+.contacts__phones {
     gap: 47px;
     margin-bottom: 25px;
     padding-bottom: 23px;
     border-bottom: var(--border);
 }
 
-.cell-phones {
+.contacts__phones {
     flex-direction: column;
 }
 
-.personal-contacts {
+.contacts__personal {
     line-height: 150%;
     color: var(--yellow-phone);
 }
@@ -794,14 +794,14 @@
 
 
 /* Email */
-.contacts-email {
+.contacts__email {
     gap: 93px;
     margin-bottom: 25px;
     padding-bottom: 22px;
     border-bottom: var(--border);
 }
 
-.grey-text-email {
+.contacts__email-text {
     line-height: 150%;
     color: var(--pale-grey);
 }
@@ -809,14 +809,14 @@
 
 
 /* График */
-.contacts-schedule {
+.contacts__schedule {
     gap: 74px;
     margin-bottom: 45px;
     padding-bottom: 22px;
     border-bottom: var(--border);
 }
 
-.schedule-text {
+.contacts__schedule-text {
     line-height: 150%;
     color: var(--black);
 }
