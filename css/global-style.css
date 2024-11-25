@@ -157,3 +157,25 @@ input, select {
     outline: none;
 }
 /* ------------------------------------------ */
+
+
+
+.footer__animation {
+    transition: color 0.3s ease-in-out;
+}
+
+/* Стилизация ссылки 'footer__animation' при использовании */
+.footer__animation:focus-visible{
+    outline-offset: 3px;
+    outline: 1px solid var(--yellow-phone);
+}
+
+.footer__animation:hover {
+    color: var(--pale-yellow);
+}
+
+.footer__animation:active {
+    color: var(--yellow-active);
+    outline: none;
+}
+/* ------------------------------------------ */

@@ -824,7 +824,7 @@
 
 
 /* Построить маршрут */
-.contacts-btn {
+.contacts__btn {
     color: var(--yellow-phone);
     border: 1px solid var(--yellow-phone);
     border-radius: 10px;
@@ -836,7 +836,7 @@
 
 
 /* Картинка в Секции КОНТАКТЫ  */
-.contacts-img {
+.contacts__img {
     border-radius: 10px;
     width: 653px;
     margin: 45px;
@@ -845,7 +845,7 @@
 
 
 /* FOOTER */
-.basement {
+.footer {
     border-radius: 15px;
     width: 1170px;
     height: 100%;
@@ -855,7 +855,7 @@
     background-color: var(--grey-header);
 }
 
-.first-block-footer {
+.footer__first-block {
     top: 1px;
     flex-direction: column;
     gap: 37px;
@@ -864,17 +864,17 @@
     width: 360px;
 }
 
-.footer-text {
+.footer__text {
     line-height: 190%;
     color: var(--white);
 }
 
-.footer-link {
+.footer__link {
     line-height: 150%;
     color: var(--yellow-phone);
 }
 
-.second-block-footer {
+.footer__second-block {
     top: 1px;
     left: 500px;
     flex-direction: column;
@@ -883,22 +883,22 @@
     padding-bottom: 45px;
 }
 
-.footer-tell-mail {
+.footer__tell-mail {
     flex-direction: column;
 }
 
-.footer-tel {
+.footer__tel {
     width: 145px;
 }
 
-.footer-mail {
+.footer__mail {
     width: 128px;
 }
 
 
 
 /* СОЛНЦЕ */
-.third-block-footer {
+.footer__third-block {
     background-image: url(/assets/img/sun-of-the-lagoon.svg);
     width: 254px;
     height: 228px;
@@ -907,7 +907,7 @@
     bottom: 3px;
 }
 
-.social-networks {
+.footer__networks {
     flex-direction: column;
     gap: 20px;
     position: absolute;
@@ -917,23 +917,23 @@
     justify-content: center;
 }
 
-.social-networking-style svg {
+.footer__networking-link svg {
     fill: var(--pale-grey);
     transition: fill 0.3s ease-in-out;
 }
 
 
 /* Стилизация 'Социальные сети, иконки' при использовании */
-.social-networking-style:focus-visible {
+.footer__networking-link:focus-visible {
     outline-offset: 3px;
     outline: 1px solid var(--yellow-phone);
 }
 
-.social-networking-style:hover svg {
+.footer__networking-link:hover svg {
     fill: var(--yellow-phone);
 }
 
-.social-networking-style:active svg {
+.footer__networking-link:active svg {
     outline: none;
     fill: var(--yellow-active);
 }
