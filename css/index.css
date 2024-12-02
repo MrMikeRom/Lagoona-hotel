@@ -53,33 +53,33 @@
 }
 /* ------------------------------------------ */
 
-.header__go-back {
+.header__back {
     font-weight: 400;
     font-size: 16px;
     color: var(--yellow);
 }
 
-.header__go-back-link {
+.header__back-link {
     gap: 7px;
     align-items: center;
 }
 
 /* Стилизация ссылки 'Личный кабинет' при использовании */
-.header__go-back-link:focus-visible {
+.header__back-link:focus-visible {
     outline-offset: 3px;
     outline: 1px solid var(--yellow-phone);
 }
 
-.header__go-back-link:hover svg path, .header__go-back-link:hover {
+.header__back-link:hover svg path, .header__back-link:hover {
     fill: var(--pale-yellow);
     color: var(--pale-yellow);
 }
 
-.header__go-back-link svg path, .header__go-back-link {
+.header__back-link svg path, .header__back-link {
     transition: .3s;
 }
 
-.header__go-back-link:active, .header__go-back-link:active svg path {
+.header__back-link:active, .header__back-link:active svg path {
     color: var(--yellow-active);
     outline: none;
     fill: var(--yellow-active);
