@@ -119,21 +119,21 @@ input, select {
     background-repeat: no-repeat;
 }
 
-.contacts__animation {
+.contacts_animation {
     transition: color 0.3s ease-in-out;
 }
 
-/* Стилизация ссылки 'contacts__animation' при использовании */
-.contacts__animation:focus-visible{
+/* Стилизация ссылки 'contacts_animation' при использовании */
+.contacts_animation:focus-visible{
     outline-offset: 3px;
     outline: 1px solid var(--yellow-phone);
 }
 
-.contacts__animation:hover {
+.contacts_animation:hover {
     color: var(--pale-yellow);
 }
 
-.contacts__animation:active {
+.contacts_animation:active {
     color: var(--yellow-active);
     outline: none;
 }
