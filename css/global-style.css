@@ -141,17 +141,17 @@ input, select {
 
 
 /* Стилизация кнопок при использовании */
-.button__interaction:focus-visible, .button__interaction:hover {
+.btn_interaction:focus-visible, .btn_interaction:hover {
     color: var(--white);
 	background-color: var(--yellow-phone);
 	outline: none;
 }
 
-.button__interaction {
+.btn_interaction {
 	transition: .5s;
 }
 
-.button__interaction:active {
+.btn_interaction:active {
     background-color: var(--yellow-active);
 	color: var(--white);
     outline: none;
@@ -160,21 +160,21 @@ input, select {
 
 
 
-.footer__animation {
+.link_animation-secondary {
     transition: color 0.3s ease-in-out;
 }
 
-/* Стилизация ссылки 'footer__animation' при использовании */
-.footer__animation:focus-visible{
+/* Стилизация ссылки 'link_animation-secondary' при использовании */
+.link_animation-secondary:focus-visible{
     outline-offset: 3px;
     outline: 1px solid var(--yellow-phone);
 }
 
-.footer__animation:hover {
+.link_animation-secondary:hover {
     color: var(--pale-yellow);
 }
 
-.footer__animation:active {
+.link_animation-secondary:active {
     color: var(--yellow-active);
     outline: none;
 }
