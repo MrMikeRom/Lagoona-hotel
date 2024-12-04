@@ -733,6 +733,14 @@
 
 
 /* Секция  КОНТАКТЫ */
+
+.contacts {
+    flex-direction: column;
+    margin: 45px;
+    margin-right: 52px;
+    width: 375px;
+}
+
 .contacts__main-title {
     color: var(--black);
 }
@@ -743,12 +751,6 @@
     background-color: var(--white);
 }
 
-.contacts {
-    flex-direction: column;
-    margin: 45px;
-    margin-right: 52px;
-    width: 375px;
-}
 
 
 
@@ -782,7 +784,7 @@
     border-bottom: var(--border);
 }
 
-.contacts__phones {
+.contacts__phone {
     flex-direction: column;
 }
 
