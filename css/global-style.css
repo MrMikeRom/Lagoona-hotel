@@ -98,7 +98,7 @@ input, select {
 	font-style: normal;
 }
 
-.btn-reset {
+.btn_reset {
 	padding: 0;
 	border: none;
 	background: none;
@@ -119,21 +119,21 @@ input, select {
     background-repeat: no-repeat;
 }
 
-.personal-contacts-animation {
+.link_animation {
     transition: color 0.3s ease-in-out;
 }
 
-/* Стилизация ссылки 'personal-contacts-animation' при использовании */
-.personal-contacts-animation:focus-visible{
+/* Стилизация ссылки 'clink_animation' при использовании */
+.link_animation:focus-visible{
     outline-offset: 3px;
     outline: 1px solid var(--yellow-phone);
 }
 
-.personal-contacts-animation:hover {
+.link_animation:hover {
     color: var(--pale-yellow);
 }
 
-.personal-contacts-animation:active {
+.link_animation:active {
     color: var(--yellow-active);
     outline: none;
 }
@@ -141,19 +141,41 @@ input, select {
 
 
 /* Стилизация кнопок при использовании */
-.interaction-with-button:focus-visible, .interaction-with-button:hover {
+.btn_interaction:focus-visible, .btn_interaction:hover {
     color: var(--white);
 	background-color: var(--yellow-phone);
 	outline: none;
 }
 
-.interaction-with-button {
+.btn_interaction {
 	transition: .5s;
 }
 
-.interaction-with-button:active {
+.btn_interaction:active {
     background-color: var(--yellow-active);
 	color: var(--white);
+    outline: none;
+}
+/* ------------------------------------------ */
+
+
+
+.link_animation-secondary {
+    transition: color 0.3s ease-in-out;
+}
+
+/* Стилизация ссылки 'link_animation-secondary' при использовании */
+.link_animation-secondary:focus-visible{
+    outline-offset: 3px;
+    outline: 1px solid var(--yellow-phone);
+}
+
+.link_animation-secondary:hover {
+    color: var(--pale-yellow);
+}
+
+.link_animation-secondary:active {
+    color: var(--yellow-active);
     outline: none;
 }
 /* ------------------------------------------ */

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/global-style.css">
     <link rel="stylesheet" href="/css/index.css">
+    <link type="image/x-icon" href="/assets/img/Favicon.png" rel="shortcut icon">
     <title>Lagoona hotel</title>
 </head>
 
@@ -20,22 +21,22 @@
         <!-- Семантический тег <header> / Шапка сайта -->
         <header class="header">
 
-            <div class="header-top flex">
+            <div class="header__top flex">
 
-                <div class="logo-phone-box flex">
+                <div class="header__contacts flex">
 
 
                     <!-- ЛОГОТИП -->
-                    <div class="header-logo">
-                        <a href="/" target="_self" class="logo">
+                    <div class="header__logo">
+                        <a href="/" target="_self" class="header__logo-link">
                             <img src="assets/img/lagoona-logotip.svg" alt="Lagoona logo">
                         </a>
                     </div>
 
 
                     <!-- КОНТАКТНЫЙ ТЕЛЕФОН -->
-                    <div class="header-contact-number">
-                        <a href="tel:+74953225448" class="reaction-links">
+                    <div class="header__tell">
+                        <a href="tel:+74953225448" class="header__tell-link">
                             +7 495 322-54-48
                         </a>
                     </div>
@@ -43,15 +44,15 @@
 
 
                 <!-- НАЗАД В ЛИЧНЫЙ КАБИНЕТ -->
-                <div class="header-back-to-personal-account">
-                    <a href="#" target="_self" class="header-back-link flex">
-                        <svg class="header-back-link" width="21" height="12" viewBox="0 0 21 12" fill="none"
+                <div class="header__back">
+                    <a href="#" target="_self" class="header__back-link flex">
+                        <svg width="21" height="12" viewBox="0 0 21 12" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M10.59 1.41L14.17 5H0V7H14.17L10.58 10.59L12 12L18 6L12 0L10.59 1.41ZM19 0V12H21V0H19Z"
                                 fill="#CC9933" />
                         </svg>
-                        <span class="header-back-link-text">Личный кабинет</span>
+                        <span>Личный кабинет</span>
                     </a>
                 </div>
 
@@ -60,19 +61,19 @@
 
 
 
-            <div class="header-bottom flex">
+            <div class="header__nav flex">
 
 
                 <!-- Семантический тег <nav> / Навигация-->
                 <nav class="nav flex">
 
                     <!-- Список навигации -->
-                    <ul class="nav-list flex">
+                    <ul class="nav__list flex">
 
                         <!-- 1 элемент навигации -->
-                        <li class="nav-item">
+                        <li class="nav__item">
 
-                            <a href="#about-us" class="animation-effect-links-nav">
+                            <a href="#about-us" class="nav__item-link">
                                 О нас
                             </a>
 
@@ -80,9 +81,9 @@
 
 
                         <!-- 2 элемент навигации -->
-                        <li class="nav-item">
+                        <li class="nav__item">
 
-                            <a href="#services" class="animation-effect-links-nav">
+                            <a href="#services" class="nav__item-link">
                                 Услуги
                             </a>
 
@@ -90,9 +91,9 @@
 
 
                         <!-- 3 элемент навигации -->
-                        <li class="nav-item">
+                        <li class="nav__item">
 
-                            <a href="#advantages" class="animation-effect-links-nav">
+                            <a href="#advantages" class="nav__item-link">
                                 Преимущества
                             </a>
 
@@ -100,9 +101,9 @@
 
 
                         <!-- 4 элемент навигации -->
-                        <li class="nav-item">
+                        <li class="nav__item">
 
-                            <a href="#placement" class="animation-effect-links-nav">
+                            <a href="#placement" class="nav__item-link">
                                 Размещение
                             </a>
 
@@ -110,9 +111,9 @@
 
 
                         <!-- 5 элемент навигации -->
-                        <li class="nav-item">
+                        <li class="nav__item">
 
-                            <a href="#want-a-tour" class="animation-effect-links-nav">
+                            <a href="#want-a-tour" class="nav__item-link">
                                 Блог
                             </a>
 
@@ -120,9 +121,9 @@
 
 
                         <!-- 6 элемент навигации -->
-                        <li class="nav-item">
+                        <li class="nav__item">
 
-                            <a href="#contacts" class="animation-effect-links-nav">
+                            <a href="#contacts" class="nav__item-link">
                                 Контакты
                             </a>
 
@@ -133,13 +134,13 @@
                 </nav>
 
 
-                <div class="button-wrap flex">
+                <div class="header__buttons buttons__wrap buttons flex">
 
                     <!--  Первая кнопка в header-е  -->
-                    <button class="btn-reset btn interaction-with-button">Хочу тур</button>
+                    <button class="btn_reset btn btn_interaction">Хочу тур</button>
 
                     <!--  Вторая кнопка в header-е  -->
-                    <button class="btn-reset btn interaction-with-button">Обратный звонок</button>
+                    <button class="btn_reset btn btn_interaction">Обратный звонок</button>
 
                 </div>
 
@@ -155,28 +156,28 @@
 
 
             <!-- Секция СПЕЦПРЕДЛОЖЕНИЯ -->
-            <section class="special-offers-section">
+            <section class="special-offers">
 
 
-                <h1 class="special-offers-title">Спецпредложения</h1>
+                <h1 class="special-offers__title">Спецпредложения</h1>
 
 
-                <div class="special-offers-wrap flex">
+                <div class="special-offers__left-block special-offers__wrap flex">
 
 
                     <div class="left-block flex">
 
 
                         <!-- Первое спецпродложение -->
-                        <div class="left-block-item first-card focus-special-card">
+                        <div class="left-block__item first-card left-block__focus">
 
-                            <div class="special-offers flex">
+                            <div class="left-block__offers flex">
 
-                                <h3 class="special-item-title">Мальдивские острова</h3>
+                                <h3 class="left-block__title">Мальдивские острова</h3>
 
-                                <p class="special-item-price">от 55 000 ₽</p>
+                                <p class="left-block__price">от 55 000 ₽</p>
 
-                                <a href="#" class="more-about-link text-cust flex">
+                                <a href="#" class="special-offers__link text-cust flex">
                                     Подробнее <svg width="11" height="18" viewBox="0 0 11 18" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1.49998 1.00002L9.27815 8.7782L1.49998 16.5564" stroke="#F0BF5F"
@@ -190,15 +191,15 @@
 
 
                         <!-- Второе спецпродложение -->
-                        <div class="left-block-item second-card focus-special-card">
+                        <div class="left-block__item second-card left-block__focus">
 
-                            <div class="special-offers flex">
+                            <div class="left-block__offers flex">
 
-                                <h3 class="special-item-title">Горящий тур на&nbsp;остров Крит</h3>
+                                <h3 class="left-block__title">Горящий тур на&nbsp;остров Крит</h3>
 
-                                <p class="special-item-price">от 30 000 ₽</p>
+                                <p class="left-block__price">от 30 000 ₽</p>
 
-                                <a href="#" class="more-about-link text-cust flex">
+                                <a href="#" class="special-offers__link text-cust flex">
                                     Подробнее <svg width="11" height="18" viewBox="0 0 11 18" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1.49998 1.00002L9.27815 8.7782L1.49998 16.5564" stroke="#F0BF5F"
@@ -214,18 +215,18 @@
                     </div>
 
 
-                    <div class="right-block">
+                    <div class="special-offers__rigth-block right-block">
 
                         <!-- Третье спецпродложение -->
-                        <div class="right-block-item flex back-cust focus-special-card">
+                        <div class="right-block__item flex back-cust left-block__focus">
 
-                            <div class="right-special-offers flex">
+                            <div class="right-block__offers flex">
 
-                                <h3 class="special-item-title right-special-item-title">Номера категории люкс</h3>
+                                <h3 class="right-block__title">Номера категории люкс</h3>
 
-                                <p class="special-item-price sip3">от 5 000 ₽</p>
+                                <p class="right-block__price sip3">от 5 000 ₽</p>
 
-                                <a href="#" class="more-about-link text-cust flex">
+                                <a href="#" class="special-offers__link text-cust flex">
                                     Подробнее <svg width="11" height="18" viewBox="0 0 11 18" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1.49998 1.00002L9.27815 8.7782L1.49998 16.5564" stroke="#F0BF5F"
@@ -248,10 +249,10 @@
             <section class="about-us" id="about-us">
 
 
-                <h2 class="about-us-title">О нас</h2>
+                <h2>О нас</h2>
 
 
-                <p class="about-us-message text-cust">Идейные соображения высшего порядка, а&nbsp;также сложившаяся
+                <p class="about-us__text text-cust">Идейные соображения высшего порядка, а&nbsp;также сложившаяся
                     структура
                     организации влечёт за&nbsp;собой процесс внедрения и&nbsp;модернизации системы обучения кадров,
                     соответствует насущным потребностям. Идейные соображения высшего порядка, а&nbsp;также дальнейшее
@@ -268,19 +269,19 @@
             <section class="services" id="services">
 
 
-                <h2 class="services-title">Услуги</h2>
+                <h2>Услуги</h2>
 
 
-                <ul class="services-list flex">
+                <ul class="services__list flex">
 
 
-                    <li class="focus-services-card">
+                    <li class="services__item">
 
-                        <div class="services-card-prew one-prew"></div>
+                        <div class="services__prew one-prew"></div>
 
-                        <div class="services-card-body">
+                        <div class="services__body">
 
-                            <a href="#" class="service-link flex">
+                            <a href="#" class="service__link flex">
                                 Эксклюзивное обслуживание <svg width="10" height="18" viewBox="0 0 10 18" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path d="M0.778175 1.00002L8.55635 8.7782L0.778175 16.5564" stroke="#CC9933"
@@ -288,7 +289,7 @@
                                 </svg>
                             </a>
 
-                            <p class="card-body-text text-cust">Равным образом постоянный количественный рост
+                            <p class="services__text text-cust">Равным образом постоянный количественный рост
                                 и&nbsp;сфера
                                 нашей
                                 активности</p>
@@ -298,13 +299,13 @@
                     </li>
 
 
-                    <li class="focus-services-card">
+                    <li class="services__item">
 
-                        <div class="services-card-prew two-prew"></div>
+                        <div class="services__prew two-prew"></div>
 
-                        <div class="services-card-body">
+                        <div class="services__body">
 
-                            <a href="#" class="service-link flex">
+                            <a href="#" class="service__link flex">
                                 Аренда банкетных залов <svg width="10" height="18" viewBox="0 0 10 18" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path d="M0.778175 1.00002L8.55635 8.7782L0.778175 16.5564" stroke="#CC9933"
@@ -312,7 +313,7 @@
                                 </svg>
                             </a>
 
-                            <p class="card-body-text text-cust">Значимость этих проблем настолько очевидна, что
+                            <p class="services__text text-cust">Значимость этих проблем настолько очевидна, что
                                 дальнейшее
                                 развитие различных форм</p>
 
@@ -321,13 +322,13 @@
                     </li>
 
 
-                    <li class="focus-services-card">
+                    <li class="services__item">
 
-                        <div class="services-card-prew three-prew"></div>
+                        <div class="services__prew three-prew"></div>
 
-                        <div class="services-card-body">
+                        <div class="services__body">
 
-                            <a href="#" class="service-link flex">
+                            <a href="#" class="service__link flex">
                                 Сауны, бассейны, бани, фитнес-залы <svg width="10" height="18" viewBox="0 0 10 18"
                                     fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M0.778175 1.00002L8.55635 8.7782L0.778175 16.5564" stroke="#CC9933"
@@ -335,7 +336,7 @@
                                 </svg>
                             </a>
 
-                            <p class="card-body-text text-cust">Не&nbsp;следует, однако забывать, что начало
+                            <p class="services__text text-cust">Не&nbsp;следует, однако забывать, что начало
                                 повседневной
                                 работы
                                 по&nbsp;формированию позиции</p>
@@ -345,13 +346,13 @@
                     </li>
 
 
-                    <li class="focus-services-card">
+                    <li class="services__item">
 
-                        <div class="services-card-prew four-prew"></div>
+                        <div class="services__prew four-prew"></div>
 
-                        <div class="services-card-body">
+                        <div class="services__body">
 
-                            <a href="#" class="service-link flex">
+                            <a href="#" class="service__link flex">
                                 Охраняемые автомобильные стоянки <svg width="10" height="18" viewBox="0 0 10 18"
                                     fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M0.778175 1.00002L8.55635 8.7782L0.778175 16.5564" stroke="#CC9933"
@@ -359,7 +360,7 @@
                                 </svg>
                             </a>
 
-                            <p class="card-body-text text-cust">Не&nbsp;следует, однако забывать, что начало
+                            <p class="services__text text-cust">Не&nbsp;следует, однако забывать, что начало
                                 повседневной
                                 работы
                                 по&nbsp;формированию позиции</p>
@@ -379,28 +380,28 @@
             <section class="advantages" id="advantages">
 
 
-                <h2 class="advantages-title">Преимущества</h2>
+                <h2>Преимущества</h2>
 
 
-                <ul class="advantages-list flex">
+                <ul class="advantages__list flex">
 
                     <!-- ПЕРВЫЙ обьект -->
-                    <li class="advantages-item">
+                    <li class="advantages__item">
 
-                        <div class="advantages-background bathtub-icon"></div>
+                        <div class="advantages__background bathtub-icon"></div>
 
-                        <p class="advantages-item-text text-cust">Идейные соображения высшего порядка,
+                        <p class="advantages__text text-cust">Идейные соображения высшего порядка,
                             а&nbsp;также постоянный количественный рост</p>
 
                     </li>
 
 
                     <!-- ВТОРОЙ обьект -->
-                    <li class="advantages-item">
+                    <li class="advantages__item">
 
-                        <div class="advantages-background hanger-icon"></div>
+                        <div class="advantages__background hanger-icon"></div>
 
-                        <p class="advantages-item-text text-cust">Значимость этих проблем настолько очевидна, что вопрос
+                        <p class="advantages__text text-cust">Значимость этих проблем настолько очевидна, что вопрос
                             остаётся
                             открытым</p>
 
@@ -408,11 +409,11 @@
 
 
                     <!-- ТРЕТИЙ обьект -->
-                    <li class="advantages-item">
+                    <li class="advantages__item">
 
-                        <div class="advantages-background heating-icon"></div>
+                        <div class="advantages__background heating-icon"></div>
 
-                        <p class="advantages-item-text text-cust">Таким образом реализация плановых заданий играет
+                        <p class="advantages__text text-cust">Таким образом реализация плановых заданий играет
                             важную роль для
                             понимания</p>
 
@@ -420,11 +421,11 @@
 
 
                     <!-- ЧЕТВЕРТЫЙ обьект -->
-                    <li class="advantages-item">
+                    <li class="advantages__item">
 
-                        <div class="advantages-background key-icon"></div>
+                        <div class="advantages__background key-icon"></div>
 
-                        <p class="advantages-item-text text-cust">Повседневная практика показывает, что сложившаяся
+                        <p class="advantages__text text-cust">Повседневная практика показывает, что сложившаяся
                             структура
                             организации</p>
 
@@ -432,11 +433,11 @@
 
 
                     <!-- ПЯТЫЙ обьект -->
-                    <li class="advantages-item">
+                    <li class="advantages__item">
 
-                        <div class="advantages-background parking-icon"></div>
+                        <div class="advantages__background parking-icon"></div>
 
-                        <p class="advantages-item-text text-cust">Равным образом рамки и&nbsp;место обучения кадров
+                        <p class="advantages__text text-cust">Равным образом рамки и&nbsp;место обучения кадров
                             способствует
                             подготовки сотрудника</p>
 
@@ -444,11 +445,11 @@
 
 
                     <!-- ШЕСТОЙ обьект -->
-                    <li class="advantages-item">
+                    <li class="advantages__item">
 
-                        <div class="advantages-background reception-icon"></div>
+                        <div class="advantages__background reception-icon"></div>
 
-                        <p class="advantages-item-text text-cust">Консультация с&nbsp;активом влечёт за&nbsp;собой
+                        <p class="advantages__text text-cust">Консультация с&nbsp;активом влечёт за&nbsp;собой
                             процесс
                             внедрения услуг нашего сервиса</p>
 
@@ -456,11 +457,11 @@
 
 
                     <!-- СЕДЬМОЙ обьект -->
-                    <li class="advantages-item">
+                    <li class="advantages__item">
 
-                        <div class="advantages-background security-box"></div>
+                        <div class="advantages__background security-box"></div>
 
-                        <p class="advantages-item-text text-cust">Повседневная практика показывает, что дальнейшее
+                        <p class="advantages__text text-cust">Повседневная практика показывает, что дальнейшее
                             развитие
                             различных</p>
 
@@ -468,16 +469,15 @@
 
 
                     <!-- ВОСЬМОЙ обьект -->
-                    <li class="advantages-item">
+                    <li class="advantages__item">
 
-                        <div class="advantages-background swimming-pool-icon"></div>
+                        <div class="advantages__background swimming-pool-icon"></div>
 
-                        <p class="advantages-item-text text-cust">Значимость этого настолько очевидна, что консультация
+                        <p class="advantages__text text-cust">Значимость этого настолько очевидна, что консультация
                             наших
                             экспертов помогает</p>
 
                     </li>
-
 
                 </ul>
 
@@ -489,14 +489,14 @@
             <section class="placement" id="placement">
 
 
-                <h2 class="placement-title">Размещение</h2>
+                <h2>Размещение</h2>
 
 
-                <ul class="placement-list flex">
+                <ul class="placement__list flex">
 
 
                     <!-- ПЕРВАЯ карточка размещения -->
-                    <li class="placement-item">
+                    <li class="placement__item">
 
                         <div>
 
@@ -507,13 +507,13 @@
                             </div>
 
 
-                            <div class="placement-card-body">
+                            <div class="placement__body">
 
-                                <div class="placement-card-pr-ra flex">
+                                <div class="placement__card flex">
                                     <div>
-                                        <span class="placement-grey-text text-cust">от</span> <strong
-                                            class="placement-black-price">4 698</strong> <span
-                                            class="placement-price-black text-cust">/ ночь</span>
+                                        <span class="placement__text text-cust">от</span> <strong
+                                            class="placement__price">4 698</strong> <span
+                                            class="placement__day text-cust">/ ночь</span>
                                     </div>
 
                                     <div>
@@ -525,17 +525,16 @@
                                     </div>
                                 </div>
 
-                                <h3 class="placement-card-name text-cust">Lagoona espa&ntilde;ola</h3>
+                                <h3 class="placement__card-name text-cust">Lagoona espa&ntilde;ola</h3>
 
-                                <div class="placement-grey-text text-cust placement-card-address">Барселона, Испания
+                                <div class="placement__text text-cust placement__address">Барселона, Испания
                                 </div>
 
                                 <div>
 
-                                    <button class="btn-reset btn interaction-with-button">Номера</button>
+                                    <button class="placement__btn btn_reset btn btn_interaction">Номера</button>
 
                                 </div>
-
 
                             </div>
 
@@ -545,7 +544,7 @@
 
 
                     <!-- ВТОРАЯ карточка размещения -->
-                    <li class="placement-item">
+                    <li class="placement__item">
 
                         <div>
 
@@ -557,13 +556,13 @@
                             </div>
 
 
-                            <div class="placement-card-body">
+                            <div class="placement__body">
 
-                                <div class="placement-card-pr-ra flex">
+                                <div class="placement__card flex">
                                     <div>
-                                        <span class="placement-grey-text text-cust">от</span> <strong
-                                            class="placement-black-price">5 148</strong> <span
-                                            class="placement-price-black text-cust">/ ночь</span>
+                                        <span class="placement__text text-cust">от</span> <strong
+                                            class="placement__price">5 148</strong> <span
+                                            class="placement__day text-cust">/ ночь</span>
                                     </div>
 
                                     <div>
@@ -575,20 +574,18 @@
                                     </div>
                                 </div>
 
-                                <h3 class="placement-card-name text-cust">Lagoona son t&iacute;picas</h3>
+                                <h3 class="placement__card-name text-cust">Lagoona son t&iacute;picas</h3>
 
-                                <div class="placement-grey-text text-cust placement-card-address">Барселона, Испания
+                                <div class="placement__text text-cust placement__address">Барселона, Испания
                                 </div>
 
                                 <div>
 
-                                    <button class="btn-reset btn interaction-with-button">Номера</button>
+                                    <button class="placement__btn btn_reset btn btn_interaction">Номера</button>
 
                                 </div>
 
-
                             </div>
-
 
                         </div>
 
@@ -596,7 +593,7 @@
 
 
                     <!-- ТРЕТЬЯ карточка размещения -->
-                    <li class="placement-item">
+                    <li class="placement__item">
 
                         <div>
 
@@ -608,13 +605,13 @@
                             </div>
 
 
-                            <div class="placement-card-body">
+                            <div class="placement__body">
 
-                                <div class="placement-card-pr-ra flex">
+                                <div class="placement__card flex">
                                     <div>
-                                        <span class="placement-grey-text text-cust">от</span> <strong
-                                            class="placement-black-price">6 254</strong> <span
-                                            class="placement-price-black text-cust">/ ночь</span>
+                                        <span class="placement__text text-cust">от</span> <strong
+                                            class="placement__price">6 254</strong> <span
+                                            class="placement__day text-cust">/ ночь</span>
                                     </div>
 
                                     <div>
@@ -626,20 +623,18 @@
                                     </div>
                                 </div>
 
-                                <h3 class="placement-card-name text-cust">Lagoona de&nbsp;la&nbsp;guerra</h3>
+                                <h3 class="placement__card-name text-cust">Lagoona de&nbsp;la&nbsp;guerra</h3>
 
-                                <div class="placement-grey-text text-cust placement-card-address">Барселона, Испания
+                                <div class="placement__text text-cust placement__address">Барселона, Испания
                                 </div>
 
                                 <div>
 
-                                    <button class="btn-reset btn interaction-with-button">Номера</button>
+                                    <button class="placement__btn btn_reset btn btn_interaction">Номера</button>
 
                                 </div>
 
-
                             </div>
-
 
                         </div>
 
@@ -647,7 +642,7 @@
 
 
                     <!-- ЧЕТВЕРТАЯ карточка размещения -->
-                    <li class="placement-item">
+                    <li class="placement__item">
 
                         <div>
 
@@ -659,13 +654,13 @@
                             </div>
 
 
-                            <div class="placement-card-body">
+                            <div class="placement__body">
 
-                                <div class="placement-card-pr-ra flex">
+                                <div class="placement__card flex">
                                     <div>
-                                        <span class="placement-grey-text text-cust">от</span> <strong
-                                            class="placement-black-price">6 320</strong> <span
-                                            class="placement-price-black text-cust">/ ночь</span>
+                                        <span class="placement__text text-cust">от</span> <strong
+                                            class="placement__price">6 320</strong> <span
+                                            class="placement__day text-cust">/ ночь</span>
                                     </div>
 
                                     <div>
@@ -677,20 +672,18 @@
                                     </div>
                                 </div>
 
-                                <h3 class="placement-card-name text-cust">Lagoona mentira piadosa</h3>
+                                <h3 class="placement__card-name text-cust">Lagoona mentira piadosa</h3>
 
-                                <div class="placement-grey-text text-cust placement-card-address">Барселона, Испания
+                                <div class="placement__text text-cust placement__address">Барселона, Испания
                                 </div>
 
                                 <div>
 
-                                    <button class="btn-reset btn interaction-with-button">Номера</button>
+                                    <button class="placement__btn btn_reset btn btn_interaction">Номера</button>
 
                                 </div>
 
-
                             </div>
-
 
                         </div>
 
@@ -698,7 +691,7 @@
 
 
                     <!-- ПЯТАЯ карточка размещения -->
-                    <li class="placement-item">
+                    <li class="placement__item">
 
                         <div>
 
@@ -710,13 +703,13 @@
                             </div>
 
 
-                            <div class="placement-card-body">
+                            <div class="placement__body">
 
-                                <div class="placement-card-pr-ra flex">
+                                <div class="placement__card flex">
                                     <div>
-                                        <span class="placement-grey-text text-cust">от</span> <strong
-                                            class="placement-black-price">6 457</strong> <span
-                                            class="placement-price-black text-cust">/ ночь</span>
+                                        <span class="placement__text text-cust">от</span> <strong
+                                            class="placement__price">6 457</strong> <span
+                                            class="placement__day text-cust">/ ночь</span>
                                     </div>
 
                                     <div>
@@ -728,20 +721,18 @@
                                     </div>
                                 </div>
 
-                                <h3 class="placement-card-name text-cust">Lagoona empujar la&nbsp;creatividad</h3>
+                                <h3 class="placement__card-name text-cust">Lagoona empujar la&nbsp;creatividad</h3>
 
-                                <div class="placement-grey-text text-cust placement-card-address">Барселона, Испания
+                                <div class="placement__text text-cust placement__address">Барселона, Испания
                                 </div>
 
                                 <div>
 
-                                    <button class="btn-reset btn interaction-with-button">Номера</button>
+                                    <button class="placement__btn btn_reset btn btn_interaction">Номера</button>
 
                                 </div>
 
-
                             </div>
-
 
                         </div>
 
@@ -749,7 +740,7 @@
 
 
                     <!-- ШЕСТАЯ карточка размещения -->
-                    <li class="placement-item">
+                    <li class="placement__item">
 
                         <div>
 
@@ -760,13 +751,13 @@
                             </div>
 
 
-                            <div class="placement-card-body">
+                            <div class="placement__body">
 
-                                <div class="placement-card-pr-ra flex">
+                                <div class="placement__card flex">
                                     <div>
-                                        <span class="placement-grey-text text-cust">от</span> <strong
-                                            class="placement-black-price">6 320</strong> <span
-                                            class="placement-price-black text-cust">/ ночь</span>
+                                        <span class="placement__text text-cust">от</span> <strong
+                                            class="placement__price">6 320</strong> <span
+                                            class="placement__day text-cust">/ ночь</span>
                                     </div>
 
                                     <div>
@@ -778,20 +769,18 @@
                                     </div>
                                 </div>
 
-                                <h3 class="placement-card-name text-cust">Lagoona el&nbsp;retorno</h3>
+                                <h3 class="placement__card-name text-cust">Lagoona el&nbsp;retorno</h3>
 
-                                <div class="placement-grey-text text-cust placement-card-address">Барселона, Испания
+                                <div class="placement__text text-cust placement__address">Барселона, Испания
                                 </div>
 
                                 <div>
 
-                                    <button class="btn-reset btn interaction-with-button">Номера</button>
+                                    <button class="placement__btn btn_reset btn btn_interaction">Номера</button>
 
                                 </div>
 
-
                             </div>
-
 
                         </div>
 
@@ -799,7 +788,7 @@
 
 
                     <!-- СЕДЬМАЯ карточка размещения -->
-                    <li class="placement-item">
+                    <li class="placement__item">
 
                         <div>
 
@@ -811,13 +800,13 @@
                             </div>
 
 
-                            <div class="placement-card-body">
+                            <div class="placement__body">
 
-                                <div class="placement-card-pr-ra flex">
+                                <div class="placement__card flex">
                                     <div>
-                                        <span class="placement-grey-text text-cust">от</span> <strong
-                                            class="placement-black-price">6 505</strong> <span
-                                            class="placement-price-black text-cust">/ ночь</span>
+                                        <span class="placement__text text-cust">от</span> <strong
+                                            class="placement__price">6 505</strong> <span
+                                            class="placement__day text-cust">/ ночь</span>
                                     </div>
 
                                     <div>
@@ -829,20 +818,18 @@
                                     </div>
                                 </div>
 
-                                <h3 class="placement-card-name text-cust">Lagoona mentira piadosa</h3>
+                                <h3 class="placement__card-name text-cust">Lagoona mentira piadosa</h3>
 
-                                <div class="placement-grey-text text-cust placement-card-address">Барселона, Испания
+                                <div class="placement__text text-cust placement__address">Барселона, Испания
                                 </div>
 
                                 <div>
 
-                                    <button class="btn-reset btn interaction-with-button">Номера</button>
+                                    <button class="placement__btn btn_reset btn btn_interaction">Номера</button>
 
                                 </div>
 
-
                             </div>
-
 
                         </div>
 
@@ -850,7 +837,7 @@
 
 
                     <!-- ВОСЬМАЯ карточка размещения -->
-                    <li class="placement-item">
+                    <li class="placement__item">
 
                         <div>
 
@@ -862,13 +849,13 @@
                             </div>
 
 
-                            <div class="placement-card-body">
+                            <div class="placement__body">
 
-                                <div class="placement-card-pr-ra flex">
+                                <div class="placement__card flex">
                                     <div>
-                                        <span class="placement-grey-text text-cust">от</span> <strong
-                                            class="placement-black-price">6 824</strong> <span
-                                            class="placement-price-black text-cust">/ ночь</span>
+                                        <span class="placement__text text-cust">от</span> <strong
+                                            class="placement__price">6 824</strong> <span
+                                            class="placement__day text-cust">/ ночь</span>
                                     </div>
 
                                     <div>
@@ -880,20 +867,18 @@
                                     </div>
                                 </div>
 
-                                <h3 class="placement-card-name text-cust">Lagoona suerte sigui&oacute; siempre</h3>
+                                <h3 class="placement__card-name text-cust">Lagoona suerte sigui&oacute; siempre</h3>
 
-                                <div class="placement-grey-text text-cust placement-card-address">Барселона, Испания
+                                <div class="placement__text text-cust placement__address">Барселона, Испания
                                 </div>
 
                                 <div>
 
-                                    <button class="btn-reset btn interaction-with-button">Номера</button>
+                                    <button class="placement__btn btn_reset btn btn_interaction">Номера</button>
 
                                 </div>
 
-
                             </div>
-
 
                         </div>
 
@@ -901,11 +886,11 @@
 
 
                     <!-- ДЕВЯТАЯ "особая" карточка размещения -->
-                    <li class="placement-special-item flex back-cust">
+                    <li class="placement__special-item flex back-cust">
 
-                        <div class="placement-special-item-container">
+                        <div class="placement__special-container">
 
-                            <a href="#" class="placement-special-item-link flex">
+                            <a href="#" class="placement__special-link flex">
                                 Посмотреть все варианты<svg width="10" height="18" viewBox="0 0 10 18" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path d="M0.778175 1.22183L8.55635 9L0.778175 16.7782" stroke="white"
@@ -918,27 +903,24 @@
 
                     </li>
 
-
-
-
                 </ul>
 
             </section>
 
 
+
             <!-- Секция  "ХОЧУ ТУР" или "БЛОГ" -->
             <section id="want-a-tour" class="want-a-tour">
 
-                <h2 class="want-a-tour-title">Хочу тур</h2>
+                <h2 class="want-a-tour__title">Хочу тур</h2>
 
-                <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="want-a-tour-form flex">
+                <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="want-a-tour__form form flex">
 
+                    <div class="form__city">
 
-                    <div class="form-city">
+                        <h5 class="form__title">Город вылета</h5>
 
-                        <h5 class="form-title">Город вылета</h5>
-
-                        <select name="city" class="form-input-field text-cust city-select">
+                        <select name="city" class="form__input-field text-cust form__city-select">
                             <option value="Санкт-Петербург"> Санкт-Петербург
                             <option value="Москва"> Москва
                             <option value="Сочи"> Сочи
@@ -948,11 +930,11 @@
                     </div>
 
 
-                    <div class="form-country">
+                    <div>
 
-                        <h5 class="form-title">Страна</h5>
+                        <h5 class="form__title">Страна</h5>
 
-                        <select name="city" class="form-input-field text-cust country-select">
+                        <select name="city" class="form__input-field text-cust form__country-select">
                             <option value="Россия"> Россия
                             <option value="Омэрика"> Омэрика
                             <option value="Китай"> Китай
@@ -962,35 +944,34 @@
                     </div>
 
 
-                    <div class="form-date">
+                    <div>
 
-                        <h5 class="form-title">Дата прибытия</h5>
+                        <h5 class="form__title">Дата прибытия</h5>
 
-                        <input type="date" required class="form-input-field text-cust">
-
-                    </div>
-
-
-                    <div class="form-nights">
-
-                        <h5 class="form-title">Ночей</h5>
-
-                        <input type="number" required min="1" class="form-input-field text-cust nights-tourists">
+                        <input type="date" required class="form__input-field text-cust">
 
                     </div>
 
 
-                    <div class="form-tourists">
+                    <div>
 
-                        <h5 class="form-title">Туристы</h5>
+                        <h5 class="form__title">Ночей</h5>
 
-                        <input type="number" required min="1" class="form-input-field text-cust nights-tourists">
+                        <input type="number" required min="1" class="form__input-field text-cust form__nights-tourists">
 
                     </div>
 
 
-                    <button type="submit" class="btn form-btn interaction-with-button">Найти</button>
+                    <div>
 
+                        <h5 class="form__title">Туристы</h5>
+
+                        <input type="number" required min="1" class="form__input-field text-cust form__nights-tourists">
+
+                    </div>
+
+
+                    <button type="submit" class="btn form__btn btn_interaction">Найти</button>
 
                 </form>
 
@@ -1001,62 +982,62 @@
             <!-- Секция  КОНТАКТЫ -->
             <section id="contacts">
 
-                <h2 class="contacts-main-title">Контакты</h2>
+                <h2 class="contacts__main-title">Контакты</h2>
 
-                <div class="contacts-container flex">
+                <div class="contacts__container flex">
 
                     <div class="contacts flex">
 
-                        <div class="contacts-addresses flex">
+                        <div class="contacts__addresses flex">
 
-                            <h4 class="contacts-title">Адрес</h4>
+                            <h4 class="contacts__title">Адрес</h4>
 
-                            <p class="addresses-text text-cust">Москва, улица Юности, дом 5 строение 4, офис 2</p>
+                            <p class="contacts__addresse-text text-cust">Москва, улица Юности, дом 5 строение 4, офис 2</p>
 
                         </div>
 
 
-                        <div class="contacts-phones flex">
+                        <div class="contacts__phones flex">
 
-                            <h4 class="contacts-title">Телефоны</h4>
+                            <h4 class="contacts__title">Телефоны</h4>
 
-                            <div class="cell-phones flex">
+                            <div class="contacts__phone flex">
                                 <a href="tel:+74995356434"
-                                    class="personal-contacts text-cust personal-contacts-animation">+7 499 535-64-34</a>
+                                    class="contacts__personal text-cust link_animation">+7 499 535-64-34</a>
                                 <a href="tel:+74950050544"
-                                    class="personal-contacts text-cust personal-contacts-animation">+7 495 005-05-44</a>
+                                    class="contacts__personal text-cust link_animation">+7 495 005-05-44</a>
                             </div>
                         </div>
 
 
-                        <div class="contacts-email flex">
+                        <div class="contacts__email flex">
 
-                            <h4 class="contacts-title">Email</h4>
+                            <h4 class="contacts__title">Email</h4>
 
-                            <div class="emails">
+                            <div>
 
                                 <a href="mailto:lg.oona@mail.ru"
-                                    class="personal-contacts text-cust personal-contacts-animation">lg.oona@mail.ru</a>
-                                <p class="grey-text-email text-cust">по вопросам бронирования</p>
+                                    class="contacts__personal text-cust link_animation">lg.oona@mail.ru</a>
+                                <p class="contacts__email-text text-cust">по вопросам бронирования</p>
 
                                 <a href="mailto:hotels.ln@mail.ru"
-                                    class="personal-contacts text-cust personal-contacts-animation">hotels.ln@mail.ru</a>
-                                <p class="grey-text-email text-cust">по вопросам сотрудничества</p>
+                                    class="contacts__personal text-cust link_animation">hotels.ln@mail.ru</a>
+                                <p class="contacts__email-text text-cust">по вопросам сотрудничества</p>
 
                             </div>
                         </div>
 
 
-                        <div class="contacts-schedule flex">
+                        <div class="contacts__schedule flex">
 
-                            <h4 class="contacts-title">График</h4>
+                            <h4 class="contacts__title">График</h4>
 
-                            <p class="schedule-text text-cust">Понедельник-пятница, с 10:00 до 19:00</p>
+                            <p class="contacts__schedule-text text-cust">Понедельник-пятница, с 10:00 до 19:00</p>
 
                         </div>
 
 
-                        <button class="btn-reset contacts-btn text-cust interaction-with-button">Построить
+                        <button class="btn_reset contacts__btn text-cust btn_interaction">Построить
                             маршрут</button>
 
 
@@ -1064,7 +1045,7 @@
 
 
 
-                    <div class="contacts-img flex">
+                    <div class="contacts__img flex">
 
                         <img src="/assets/img/hotel-reception-desk.png" alt="Ресепшн отеля Lagoona">
 
@@ -1079,62 +1060,62 @@
 
 
 
-        <footer class="basement flex">
+        <footer class="footer flex">
 
 
-            <div class="first-block-footer flex">
+            <div class="footer__first-block flex">
 
                 <div>
-                    <p class="footer-text text-cust">© 2012–2020 Управляющая компания Объединённой сети «Лагуна
+                    <p class="footer__text text-cust">© 2012–2020 Управляющая компания Объединённой сети «Лагуна
                         Хотелс»</p>
                 </div>
 
                 <div>
-                    <p class="footer-text text-cust">Представленная на сайте информация носит справочный характер и
+                    <p class="footer__text text-cust">Представленная на сайте информация носит справочный характер и
                         не является
                         публичной офертой</p>
                 </div>
 
                 <div>
-                    <a href="#" class="footer-link text-cust personal-contacts-animation">Пользовательское
+                    <a href="#" class="footer__link text-cust link_animation-secondary">Пользовательское
                         соглашение</a>
                 </div>
 
             </div>
 
 
-            <div class="second-block-footer flex">
+            <div class="footer__second-block flex">
 
                 <div>
-                    <p class="footer-text text-cust">11710, улица Юности, дом 5 строение 4, офис 2</p>
+                    <p class="footer__text text-cust">11710, улица Юности, дом 5 строение 4, офис 2</p>
                 </div>
 
-                <div class="footer-tell-mail flex">
-                    <a href="tel:+74995356434" class="footer-link text-cust footer-tel personal-contacts-animation">+7
+                <div class="footer__links-wrap flex">
+                    <a href="tel:+74995356434" class="footer__link text-cust footer__tel link_animation-secondary">+7
                         499
                         535-64-34</a>
-                    <a href="tel:+74950050544" class="footer-link text-cust footer-tel personal-contacts-animation">+7
+                    <a href="tel:+74950050544" class="footer__link text-cust footer__tel link_animation-secondary">+7
                         495
                         005-05-44</a>
                 </div>
 
-                <div class="footer-tell-mail flex">
+                <div class="footer__links-wrap flex">
                     <a href="mailto:lg.oona@mail.ru"
-                        class="footer-link text-cust footer-mail personal-contacts-animation">lg.oona@mail.ru</a>
+                        class="footer__link text-cust footer__mail link_animation-secondary">lg.oona@mail.ru</a>
                     <a href="mailto:hotels.ln@mail.ru"
-                        class="footer-link text-cust footer-mail personal-contacts-animation">hotels.ln@mail.ru</a>
+                        class="footer__link text-cust footer__mail link_animation-secondary">hotels.ln@mail.ru</a>
                 </div>
 
             </div>
 
 
-            <div class="third-block-footer back-cust"></div>
+            
+            <div class="footer__third-block back-cust"></div>
 
-
-            <div class="social-networks flex">
+            <div class="footer__networks flex">
 
                 <div>
-                    <a href="#" class="social-networking-style">
+                    <a href="#" class="footer__networking-link">
                         <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M17.1779 11.7844C16.3343 11.7844 15.6441 12.449 15.6441 13.2926C15.6441 14.1362 16.3343 14.8263 17.1523 14.8263C17.9959 14.8263 18.6605 14.1362 18.6605 13.3182C18.6861 12.449 18.0214 11.7844 17.1779 11.7844ZM17.1779 14.0595C16.7433 14.0595 16.411 13.7272 16.411 13.2926C16.411 12.858 16.7433 12.5257 17.1779 12.5257C17.6124 12.5257 17.9447 12.8836 17.9447 13.2926C17.9447 13.7272 17.5869 14.0595 17.1779 14.0595Z" />
@@ -1153,7 +1134,7 @@
                 </div>
 
                 <div>
-                    <a href="#" class="social-networking-style">
+                    <a href="#" class="footer__networking-link">
                         <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M10.7106 8.32552C10.7106 9.35607 11.546 10.1916 12.5766 10.1916C13.6071 10.1916 14.4426 9.35607 14.4426 8.32552C14.4426 7.29496 13.6071 6.4595 12.5766 6.4595C11.546 6.4595 10.7106 7.29496 10.7106 8.32552Z" />
@@ -1164,7 +1145,7 @@
                 </div>
 
                 <div>
-                    <a href="https://vk.com/id744638508" class="social-networking-style">
+                    <a href="https://vk.com/id744638508" class="footer__networking-link">
                         <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_370726_103)">
                                 <path
@@ -1181,7 +1162,6 @@
 
             </div>
 
-
         </footer>
 
 
@@ -1190,4 +1170,4 @@
 
 </body>
 
-</html>
+</html>  
